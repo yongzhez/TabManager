@@ -10,15 +10,15 @@ if (mysqli_connect_errno()) {
 
 $user = mysqli_real_escape_string($con, $_POST['user']);
 $pass = mysqli_real_escape_string($con, $_POST['pass']);
+ 
+$result= mysqli_query($con, "SELECT * FROM  users WHERE Username='$user'");
+while($row = mysqli_fetch_array($result)) {
+  echo $row['Username'] . " " . $row['Password'];
 
-$sql="INSERT INTO users (Username, Password)
-    VALUES ('$user', '$pass')";
-if (!mysqli_query($con,$sql)) {
-  die('Error: ' . mysqli_error($con));
+	
 }
 
 
-echo "record added , $user";
 ?>
 
 </body>
