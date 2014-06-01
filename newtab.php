@@ -22,7 +22,7 @@ if (mysqli_connect_errno()) {
 }
 ?>
 	<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-	ower: <input type="text" name="fromID">
+	ower: <input type="text" name="toID">
 	amount: <input type="text" name="amount"><br>
 	desc: <textarea name="desc" rows="1" cols="40"></textarea><br>
 	type:<input type="radio" name="type" value="pay">payment
@@ -41,9 +41,9 @@ if (mysqli_connect_errno()) {
 
 	}
 	foreach ($userlist as $x=>$x_value){
-		if ($_POST['fromID'] == $x_value){
+		if ($_POST['toID'] == $x_value){
 			$status = 0;
-			$fromID = $x;
+			$toID = $x;
 		}else{
 			$status = 1;
 		}
@@ -56,25 +56,26 @@ if (mysqli_connect_errno()) {
 		$amount = -1 * abs($_POST['amount']);
 	}if ($_POST['type'] == "debt"){
 		$amount = abs($_POST['amount']);
-	}else{
+	}elseif (!isset($_POST['type'])){
 		echo "please choose type of tab";
 		exit;
 	}
-	$result = mysqli_query($con, "SELECT * FROM Main WHERE toID = $userID AND fromID = $fromID")
+	$result = mysqli_query($con, "SELECT * FROM Main WHERE fromID = $userID AND toID = $toID")
 	  or die ("Error in query: $query " . mysql_error()); 
 	$row = mysqli_fetch_array($result); 
 	$num_results = mysqli_num_rows($result); 
 	if ($num_results > 0){ 
-		$balance = $_POST['balance'] + $amount;
+		$balance = $row['balance'] + $amount;
 	}else{ 
 		$balance = $amount;
+	
 
 	} 
 	$timezone = date_default_timezone_get();
 	date_default_timezone_set($timezone);
 	$date = date('m/d/Y h:i:s a', time());
-	$insert = mysqli_query($con, "INSERT INTO Main (fromID, amount, date, toID, description, balance) 
-		VALUES ('$fromID', '$amount', '$date', '$userID', '".$_POST['desc'] ."', '$balance')");
+	$insert = mysqli_query($con, "INSERT INTO Main (toID, amount, date, fromID, description, balance) 
+		VALUES ('$toID', '$amount', '$date', '$userID', '".$_POST['desc'] ."', '$balance')");
 	if (!$insert){
 		echo 'Could not run query: ' . mysql_error();
 	}

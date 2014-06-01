@@ -74,7 +74,7 @@ if ($correctness > 0){
 	}else{	
 		if (mysqli_num_rows($table) > 0) {
 		  echo "<table cellpadding=10 border=1>";
-		  while($row = mysqli_fetch_assoc($table)) {
+		  while($row = mysqli_fetch_assoc($table)) {k
 		  	echo "<tr>";
        			echo "<td>".$userlist[$row['fromID']]."</td>";
        			echo "<td>".$row['description']."</td>";
