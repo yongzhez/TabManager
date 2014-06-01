@@ -3,7 +3,7 @@
 // create an array to set page-level variables
 $page = array();
 
-$page['title'] = 'Main Page';
+$page['title'] = 'Tables';
 
 /* once the file is imported, the variables set above will become available to it */
 
@@ -24,8 +24,17 @@ if (mysqli_connect_errno()) {
 $user = mysqli_real_escape_string($con, $_POST['user']);
 $pass = mysqli_real_escape_string($con, $_POST['pass']);
 
+
+$userlist = array();
 $counter = 0;
 $correctness = 0;
+
+
+//creates a list used for matching IDs to usernames for the table
+$result= mysqli_query($con, "SELECT * FROM  users ");
+while($row = mysqli_fetch_array($result)){
+	$userlist[$row['ID']]= $row['Username'];
+}
 
 $result= mysqli_query($con, "SELECT * FROM  users WHERE Username='$user'");
 while($row = mysqli_fetch_array($result)) {
@@ -37,6 +46,7 @@ while($row = mysqli_fetch_array($result)) {
 	$username = $row['Username'];
 	$counter ++;
 }
+
 // there were no users
 if ($counter == 0){
 	$correctness ++;
@@ -53,8 +63,12 @@ if ($correctness > 0){
     </form>
 <?php 
 }else{
+	session_start(); 
+	$_SESSION['ID'] = $userID; // store session data
+	$_SESSION['userlist'] = $userlist;
+	
 	echo "Welcome " . $username;
-	$table = mysqli_query($con, "SELECT * FROM Main WHERE owingID = $userID");
+	$table = mysqli_query($con, "SELECT * FROM Main WHERE toID = $userID");
 	if (!$table){
 		echo 'Could not run query: ' . mysql_error();
 	}else{	
@@ -62,7 +76,7 @@ if ($correctness > 0){
 		  echo "<table cellpadding=10 border=1>";
 		  while($row = mysqli_fetch_assoc($table)) {
 		  	echo "<tr>";
-       			echo "<td>".$row['oweeID']."</td>";
+       			echo "<td>".$userlist[$row['fromID']]."</td>";
        			echo "<td>".$row['desc']."</td>";
         		echo "<td>".$row['amount']."</td>";
         		echo "<td>".$row['balance']."</td>";
@@ -72,7 +86,7 @@ if ($correctness > 0){
 		  }
 		   echo "</table>";
 		}else{
-			echo "you have no debts!";
+			echo "<br>" . "you have no debts!";
 		}
 	}
 }

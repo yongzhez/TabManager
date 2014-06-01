@@ -14,13 +14,11 @@
 
 <tr>
 
-<td><a href="#">Home</a></td>
+<td><a href="signin.php">Tables</a></td>
 
-<td><a href="#">Site Map</a></td>
+<td><a href="newtab.php">New Record</a></td>
 
-<td><a href="#">Search</a></td>
-
-<td><a href="#">Help</a></td>
+<td><a href="profile.php">Profile</a></td>
 
 </tr>
 
