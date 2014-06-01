@@ -38,7 +38,7 @@ $table = mysqli_query($con, "SELECT * FROM Main WHERE toID = $userID");
 		  while($row = mysqli_fetch_assoc($table)) {
 		  	echo "<tr>";
        			echo "<td>".$userlist[$row['fromID']]."</td>";
-       			echo "<td>".$row['desc']."</td>";
+       			echo "<td>".$row['description']."</td>";
         		echo "<td>".$row['amount']."</td>";
         		echo "<td>".$row['balance']."</td>";
        			echo "<td>".$row['date']."</td>";

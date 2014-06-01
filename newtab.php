@@ -50,6 +50,7 @@ if (mysqli_connect_errno()) {
 	}
 	if (!isset($fromID)){
 		echo "there are no users with that name";
+		exit;
 	}
 	if ($_POST['type']== "pay"){
 		$amount = -1 * abs($_POST['amount']);
@@ -57,8 +58,10 @@ if (mysqli_connect_errno()) {
 		$amount = abs($_POST['amount']);
 	}else{
 		echo "please choose type of tab";
+		exit;
 	}
-	$result = mysqli_query($con, "SELECT * FROM Main WHERE toID = $userID")  or die ("Error in query: $query " . mysql_error()); ;
+	$result = mysqli_query($con, "SELECT * FROM Main WHERE toID = $userID AND fromID = $fromID")
+	  or die ("Error in query: $query " . mysql_error()); 
 	$row = mysqli_fetch_array($result); 
 	$num_results = mysqli_num_rows($result); 
 	if ($num_results > 0){ 
@@ -70,12 +73,12 @@ if (mysqli_connect_errno()) {
 	$timezone = date_default_timezone_get();
 	date_default_timezone_set($timezone);
 	$date = date('m/d/Y h:i:s a', time());
-	echo ("$fromID, $amount, $date, $userID, ".$_POST['desc'] .", $balance");
-	$insert = mysqli_query($con, "INSERT INTO Main (fromID, amount, date, toID, desc, balance) 
+	$insert = mysqli_query($con, "INSERT INTO Main (fromID, amount, date, toID, description, balance) 
 		VALUES ('$fromID', '$amount', '$date', '$userID', '".$_POST['desc'] ."', '$balance')");
 	if (!$insert){
 		echo 'Could not run query: ' . mysql_error();
 	}
+	$_POST=array();
 }
 ?>
 
