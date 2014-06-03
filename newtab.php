@@ -14,12 +14,9 @@ include('header.php');
 ?>
 
 <?php
+try{
+$con= new PDO('mysql:host=127.0.0.1; dbname=learn_sql', 'Reader', 'test');
 
-$con=mysqli_connect("127.0.0.1","Reader","test", "learn_sql");
-
-if (mysqli_connect_errno()) {
-  echo "Failed to connect to MySQL: " . mysqli_connect_error();
-}
 ?>
 	<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
 	ower: <input type="text" name="toID">
@@ -34,10 +31,12 @@ if (mysqli_connect_errno()) {
 	if(isset($_SESSION['ID'])){
 	    $userID= $_SESSION['ID'];
 	    
+	    
 	}
 	if(isset($_SESSION['userlist'])){
 	    $userlist= $_SESSION['userlist'];
 	    $arrlength= count($userlist);
+
 
 	}
 	foreach ($userlist as $x=>$x_value){
@@ -48,7 +47,7 @@ if (mysqli_connect_errno()) {
 			$status = 1;
 		}
 	}
-	if (!isset($fromID)){
+	if (!isset($toID)){
 		echo "there are no users with that name";
 		exit;
 	}
@@ -60,27 +59,39 @@ if (mysqli_connect_errno()) {
 		echo "please choose type of tab";
 		exit;
 	}
-	$result = mysqli_query($con, "SELECT * FROM Main WHERE fromID = $userID AND toID = $toID")
-	  or die ("Error in query: $query " . mysql_error()); 
-	$row = mysqli_fetch_array($result); 
-	$num_results = mysqli_num_rows($result); 
-	if ($num_results > 0){ 
-		$balance = $row['balance'] + $amount;
+	$result = $con->prepare("SELECT * FROM Main 
+				WHERE fromID = ? AND toID = ?");
+	$result->execute(array($userID, $toID));
+	$row_count = $result->rowCount();
+
+	if ($row_count > 0){
+		$row = $result->fetchAll(PDO::FETCH_ASSOC);
+		$latest = end($row);
+		$balance = $latest['balance'] + $amount;
 	}else{ 
 		$balance = $amount;
+		
+
 	
 
 	} 
 	$timezone = date_default_timezone_get();
 	date_default_timezone_set($timezone);
 	$date = date('m/d/Y h:i:s a', time());
-	$insert = mysqli_query($con, "INSERT INTO Main (toID, amount, date, fromID, description, balance) 
-		VALUES ('$toID', '$amount', '$date', '$userID', '".$_POST['desc'] ."', '$balance')");
-	if (!$insert){
-		echo 'Could not run query: ' . mysql_error();
+
+
+	$insert = $con->prepare( "INSERT INTO Main (toID, amount, date, fromID, description, balance) 
+		VALUES (:toID, :amount, :date, :userID, :description, :balance)");
+	$insert->execute(array(':toID' => $toID, ':amount' => $amount, ':date' => $date, 'userID' =>$userID,
+		':description' => $_POST['desc'], ':balance' => $balance));
+	
 	}
 	$_POST=array();
 }
+catch(PDOException $e)
+    {
+    echo $e->getMessage();
+    }
 ?>
 
 

@@ -15,14 +15,12 @@ include('header.php');
 
 
 <?php
-$con=mysqli_connect("127.0.0.1","Reader","test", "learn_sql");
+try{
+$con= new PDO('mysql:host=127.0.0.1; dbname=learn_sql', 'Reader', 'test');
 
-if (mysqli_connect_errno()) {
-  echo "Failed to connect to MySQL: " . mysqli_connect_error();
-}
 
-$user = mysqli_real_escape_string($con, $_POST['user']);
-$pass = mysqli_real_escape_string($con, $_POST['pass']);
+$user =  $_POST['user'];
+$pass =  $_POST['pass'];
 
 
 $userlist = array();
@@ -31,13 +29,17 @@ $correctness = 0;
 
 
 //creates a list used for matching IDs to usernames for the table
-$result= mysqli_query($con, "SELECT * FROM  users ");
-while($row = mysqli_fetch_array($result)){
+$result= "SELECT * FROM  users ";
+foreach($con->query($result) as $row){
 	$userlist[$row['ID']]= $row['Username'];
 }
 
-$result= mysqli_query($con, "SELECT * FROM  users WHERE Username='$user'");
-while($row = mysqli_fetch_array($result)) {
+$result= $con->prepare('SELECT * FROM  users 
+				WHERE Username= ?');
+$result->execute(array($user));
+$rows = $result->fetchAll(PDO::FETCH_ASSOC);
+
+foreach($rows as $row) {
 	if (!($row['Password'] == $pass)){
 		$correctness ++;
 		//check for password again.
@@ -68,28 +70,34 @@ if ($correctness > 0){
 	$_SESSION['userlist'] = $userlist;
 	
 	echo "Welcome " . $username;
-	$table = mysqli_query($con, "SELECT * FROM Main WHERE toID = $userID");
-	if (!$table){
-		echo 'Could not run query: ' . mysql_error();
-	}else{	
-		if (mysqli_num_rows($table) > 0) {
-		  echo "<table cellpadding=10 border=1>";
-		  while($row = mysqli_fetch_assoc($table)) {k
-		  	echo "<tr>";
-       			echo "<td>".$userlist[$row['fromID']]."</td>";
-       			echo "<td>".$row['description']."</td>";
-        		echo "<td>".$row['amount']."</td>";
-        		echo "<td>".$row['balance']."</td>";
-       			echo "<td>".$row['date']."</td>";
-        	echo "</tr>";
+	$result = $con->prepare('SELECT * FROM Main
+				 WHERE toID = ?');
+	$result->execute(array($userID));
+	$rows = $result->fetchAll(PDO::FETCH_ASSOC);
+	$n = $result->rowCount();
+	
 
-		  }
-		   echo "</table>";
-		}else{
-			echo "<br>" . "you have no debts!";
+	if ($n > 0) {
+	echo "<table cellpadding=10 border=1>";
+	foreach($rows as $row) {
+		echo "<tr>";
+       		echo "<td>".$userlist[$row['fromID']]."</td>";
+       		echo "<td>".$row['description']."</td>";
+        	echo "<td>".$row['amount']."</td>";
+        	echo "<td>".$row['balance']."</td>";
+       		echo "<td>".$row['date']."</td>";
+        echo "</tr>";
+		}
+		echo "</table>";
+	}else {
+		echo "<br>" . "you have no debts!";
 		}
 	}
 }
+catch(PDOException $e)
+    {
+    echo $e->getMessage();
+    }
 ?>
 
 <?php

@@ -14,12 +14,9 @@ include('header.php');
 ?>
 
 <?php
+try{
+$con= new PDO('mysql:host=127.0.0.1; dbname=learn_sql', 'Reader', 'test');
 
-$con=mysqli_connect("127.0.0.1","Reader","test", "learn_sql");
-
-if (mysqli_connect_errno()) {
-  echo "Failed to connect to MySQL: " . mysqli_connect_error();
-}
 
 session_start();
 if(isset($_SESSION['ID'])){
@@ -28,28 +25,33 @@ if(isset($_SESSION['ID'])){
 if(isset($_SESSION['userlist'])){
     $userlist= $_SESSION['userlist'];
 }
-
-$table = mysqli_query($con, "SELECT * FROM Main WHERE toID = $userID");
-	if (!$table){
-		echo 'Could not run query: ' . mysql_error();
-	}else{	
-		if (mysqli_num_rows($table) > 0) {
-		  echo "<table cellpadding=10 border=1>";
-		  while($row = mysqli_fetch_assoc($table)) {
-		  	echo "<tr>";
-       			echo "<td>".$userlist[$row['fromID']]."</td>";
-       			echo "<td>".$row['description']."</td>";
-        		echo "<td>".$row['amount']."</td>";
-        		echo "<td>".$row['balance']."</td>";
-       			echo "<td>".$row['date']."</td>";
-        	echo "</tr>";
-
-		  }
-		   echo "</table>";
-		}else{
-			echo "you have no debts!";
+	$result = $con->prepare('SELECT * FROM Main
+				 WHERE toID = ?');
+	$result->execute(array($userID));
+	$rows = $result->fetchAll(PDO::FETCH_ASSOC);
+	$n = $result->rowCount();
+	
+	if ($n > 0){
+	echo "<table cellpadding=10 border=1>";
+	foreach($rows as $row) {
+		echo "<tr>";
+       		echo "<td>".$userlist[$row['fromID']]."</td>";
+       		echo "<td>".$row['description']."</td>";
+        	echo "<td>".$row['amount']."</td>";
+        	echo "<td>".$row['balance']."</td>";
+       		echo "<td>".$row['date']."</td>";
+        echo "</tr>";
 		}
-	}
+		echo "</table>";
+	}else{
+		echo "<br>" . "you have no debts!";
+		}
+}
+
+catch(PDOException $e)
+    {
+    echo $e->getMessage();
+    }
 ?>
 
 <?php
