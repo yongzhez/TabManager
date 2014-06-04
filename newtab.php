@@ -82,7 +82,7 @@ $con= new PDO('mysql:host=127.0.0.1; dbname=learn_sql', 'Reader', 'test');
 
 	$insert = $con->prepare( "INSERT INTO Main (toID, amount, date, fromID, description, balance) 
 		VALUES (:toID, :amount, :date, :userID, :description, :balance)");
-	$insert->execute(array(':toID' => $toID, ':amount' => $amount, ':date' => $date, 'userID' =>$userID,
+	$insert->execute(array(':toID' => $toID, ':amount' => $amount, ':date' => $date, 'userID' => $userID,
 		':description' => $_POST['desc'], ':balance' => $balance));
 	
 	}
