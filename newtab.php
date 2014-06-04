@@ -62,7 +62,9 @@ include('con.php');
 				WHERE fromID = ? AND toID = ?");
 	$result->execute(array($userID, $toID));
 	$row_count = $result->rowCount();
-
+	/*verify that there is a prexisting balance, if so then 
+	we can add to it, if not then create a balance.
+	*/
 	if ($row_count > 0){
 		$row = $result->fetchAll(PDO::FETCH_ASSOC);
 		$latest = end($row);
