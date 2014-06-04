@@ -14,7 +14,7 @@ include('con.php');
 
 <?php
 try{
-$con= new PDO('mysql:host=127.0.0.1; dbname=learn_sql', 'Reader', 'test');
+include('con.php');
 
 ?>
 	<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
