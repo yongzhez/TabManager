@@ -15,7 +15,8 @@ include('header.php');
 
 <?php
 try{
-$con= new PDO('mysql:host=127.0.0.1; dbname=learn_sql', 'Reader', 'test');
+
+include('con.php');
 
 
 session_start();

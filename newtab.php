@@ -9,8 +9,7 @@ $page['title'] = 'New Record';
 
 // include the page header
 
-include('header.php');
-
+include('con.php');
 ?>
 
 <?php
