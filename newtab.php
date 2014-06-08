@@ -1,31 +1,14 @@
 <?php
 
-// create an array to set page-level variables
-$page = array();
-
-$page['title'] = 'New Record';
-
-/* once the file is imported, the variables set above will become available to it */
-
-// include the page header
-
-include('con.php');
-?>
-
-<?php
 try{
+
+require 'smarty3/Smarty.class.php';
+
 include('con.php');
 
-?>
-	<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-	ower: <input type="text" name="toID">
-	amount: <input type="text" name="amount"><br>
-	desc: <textarea name="desc" rows="1" cols="40"></textarea><br>
-	type:<input type="radio" name="type" value="pay">payment
-		<input type="radio" name="type" value="debt">debt<br>
-	<input type="submit" name="submit" value="Go">
-<?php
-	if(isset($_POST['submit'])){
+$smarty = new Smarty;
+
+if(isset($_POST['submit'])){
 	session_start();
 	if(isset($_SESSION['ID'])){
 	    $userID= $_SESSION['ID'];
@@ -46,17 +29,24 @@ include('con.php');
 			$status = 1;
 		}
 	}
-	if (!isset($toID)){
-		echo "there are no users with that name";
+	if (!isset($toID)){			// typing a username that doesn't exist.
+		$smarty->assign('booluser', 1);
+		$smarty->display('newtab.tpl');
+		exit;
+	}if ($toID == $userID){		// for using same ID as the current user.
+		$smarty->assign('booluser', 1);
+		$smarty->display('newtab.tpl');
 		exit;
 	}
-	if ($_POST['type']== "pay"){
-		$amount = -1 * abs($_POST['amount']);
+	if (!isset($_POST['type'])){	//is for when radio button is not clicked.
+		$smarty->assign('booltab', 1);
+		$smarty->assign('booluser', '');
+		$smarty->display('newtab.tpl');
+		exit;
 	}if ($_POST['type'] == "debt"){
 		$amount = abs($_POST['amount']);
-	}elseif (!isset($_POST['type'])){
-		echo "please choose type of tab";
-		exit;
+	}elseif ($_POST['type']== "pay"){
+		$amount = -1 * abs($_POST['amount']);
 	}
 	$result = $con->prepare("SELECT * FROM Main 
 				WHERE fromID = ? AND toID = ?");
@@ -72,9 +62,6 @@ include('con.php');
 	}else{ 
 		$balance = $amount;
 		
-
-	
-
 	} 
 	$timezone = date_default_timezone_get();
 	date_default_timezone_set($timezone);
@@ -87,19 +74,16 @@ include('con.php');
 		':description' => $_POST['desc'], ':balance' => $balance));
 	
 	}
+	$smarty->assign('info', array( $toID, $amount, $date,  $userID,
+		 $_POST['desc'],  $balance));
+	$smarty->assign('booluser', '');
+	$smarty->assign('booltab', '');
+	$smarty->display('newtab.tpl');
 	$_POST=array();
+	$smarty->clearAllCache();
 }
 catch(PDOException $e)
     {
     echo $e->getMessage();
     }
-?>
-
-
-<?php
-
-// include the page footer
-
-include('footer.php');
-
 ?>

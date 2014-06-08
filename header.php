@@ -10,7 +10,7 @@
 
 <!-- top menu bar -->
 
-<table width="90%" border="0" cellspacing="5" cellpadding="5">
+<table width="90%" border="0" cellspacing="5" cellpadding="5" border = 1>
 
 <tr>
 

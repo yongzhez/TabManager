@@ -1,31 +1,18 @@
 <?php
-
-// create an array to set page-level variables
-$page = array();
-
-$page['title'] = 'Tables';
-
-/* once the file is imported, the variables set above will become available to it */
-
-// include the page header
-
-include('header.php');
-
-?>
-
-
-<?php
 try{
+
+require 'smarty3/Smarty.class.php';
+
 include('con.php');
+
+$smarty = new Smarty;
 
 $user =  $_POST['user'];
 $pass =  $_POST['pass'];
 
-
 $userlist = array();
 $counter = 0;
 $correctness = 0;
-
 
 //creates a list used for matching IDs to usernames for the table
 $result= "SELECT * FROM  users ";
@@ -54,55 +41,48 @@ if ($counter == 0){
 }
 
 if ($correctness > 0){
-	echo "Invalid password or username, please try again";
+	$smarty->display('signin.tpl');
+	exit;
 	//Check for username again.
-?>
- 	<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-    Username:<input type="text" name="user">
-	Password:<input type="password" name="pass">
-	<input type="submit">
-    </form>
-<?php 
 }else{
 	session_start(); 
 	$_SESSION['ID'] = $userID; // store session data
 	$_SESSION['userlist'] = $userlist;
-	
-	echo "Welcome " . $username;
+
+	$smarty->assign('user', $user);//stores the name to be displayed
+
+
 	$result = $con->prepare('SELECT * FROM Main
 				 WHERE toID = ?');
 	$result->execute(array($userID));
 	$rows = $result->fetchAll(PDO::FETCH_ASSOC);
 	$n = $result->rowCount();
-	
+	// Information to be returned to the template
+	$return = array();
+	$i=0;
 
 	if ($n > 0) {
-	echo "<table cellpadding=10 border=1>";
 	foreach($rows as $row) {
-		echo "<tr>";
-       		echo "<td>".$userlist[$row['fromID']]."</td>";
-       		echo "<td>".$row['description']."</td>";
-        	echo "<td>".$row['amount']."</td>";
-        	echo "<td>".$row['balance']."</td>";
-       		echo "<td>".$row['date']."</td>";
-        echo "</tr>";
-		}
-		echo "</table>";
-	}else {
-		echo "<br>" . "you have no debts!";
+		$tmp = array(
+			'fromID'=>$userlist[$row['fromID']],
+       		'description'=>$row['description'],
+        	'amount'=>$row['amount'],
+        	'balance'=>$row['balance'],
+       		'date'=>$row['date']
+       	);
+
+		$return[$i++]=$tmp;
+
 		}
 	}
+
+	$smarty->assign('results', $return);
+	$smarty->display('tables.tpl');
+
+}
 }
 catch(PDOException $e)
     {
     echo $e->getMessage();
     }
-?>
-
-<?php
-
-// include the page footer
-
-include('footer.php');
-
 ?>
