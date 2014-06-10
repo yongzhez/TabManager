@@ -1,4 +1,8 @@
 <?php
+
+
+
+
 try{
 
 require 'smarty3/Smarty.class.php';
@@ -6,7 +10,7 @@ require 'smarty3/Smarty.class.php';
 include('con.php');
 
 $smarty = new Smarty;
-
+if (isset($_POST['user']) && isset($_POST['pass'])){
 $user =  $_POST['user'];
 $pass =  $_POST['pass'];
 
@@ -41,48 +45,62 @@ if ($counter == 0){
 }
 
 if ($correctness > 0){
-	$smarty->display('signin.tpl');
+	$smarty->display('template/signin.tpl');
 	exit;
 	//Check for username again.
 }else{
-	session_start(); 
+	session_start();
 	$_SESSION['ID'] = $userID; // store session data
 	$_SESSION['userlist'] = $userlist;
-
-	$smarty->assign('user', $user);//stores the name to be displayed
-
-
-	$result = $con->prepare('SELECT * FROM Main
-				 WHERE toID = ?');
-	$result->execute(array($userID));
-	$rows = $result->fetchAll(PDO::FETCH_ASSOC);
-	$n = $result->rowCount();
-	// Information to be returned to the template
-	$return = array();
-	$i=0;
-
-	if ($n > 0) {
-	foreach($rows as $row) {
-		$tmp = array(
-			'fromID'=>$userlist[$row['fromID']],
-       		'description'=>$row['description'],
-        	'amount'=>$row['amount'],
-        	'balance'=>$row['balance'],
-       		'date'=>$row['date']
-       	);
-
-		$return[$i++]=$tmp;
-
-		}
-	}
-
-	$smarty->assign('results', $return);
-	$smarty->display('tables.tpl');
-
+	$_SESSION['name'] = $user;
+	$transfer = 1;
+	startup($userID, $userlist, $smarty);
+}
+}else{
+	session_start();
+	$userID = $_SESSION['ID'];
+	$userlist= $_SESSION['userlist'];
+	$user = $_SESSION['name'];
+	$transfer = 0;
+	startup($userID, $userlist, $smarty);
 }
 }
+
 catch(PDOException $e)
     {
     echo $e->getMessage();
     }
+	function startup($userID, $userlist, $smarty){
+		global $user, $con;
+		$smarty->assign('user', $user);//stores the name to be displayed
+
+
+		$result = $con->prepare('SELECT * FROM Main
+					 WHERE toID = ?');
+		$result->execute(array($userID));
+		$rows = $result->fetchAll(PDO::FETCH_ASSOC);
+		$n = $result->rowCount();
+		// Information to be returned to the template
+		$return = array();
+		$i=0;
+
+		if ($n > 0) {
+		foreach($rows as $row) {
+			$tmp = array(
+				'fromID'=>$userlist[$row['fromID']],
+	       		'description'=>$row['description'],
+	        	'amount'=>$row['amount'],
+	        	'balance'=>$row['balance'],
+	       		'date'=>$row['date']
+	       	);
+
+			$return[$i++]=$tmp;
+
+			}
+		}
+		$smarty->assign('results', $return);
+		$smarty->display('template/tables.tpl');
+		exit;
+	}
+
 ?>

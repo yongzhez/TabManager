@@ -1,4 +1,4 @@
-{extends file="default.tpl"}
+{extends file="template/default.tpl"}
 {block name=title}
 	Tabs
 {/block}

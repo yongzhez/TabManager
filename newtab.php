@@ -31,17 +31,17 @@ if(isset($_POST['submit'])){
 	}
 	if (!isset($toID)){			// typing a username that doesn't exist.
 		$smarty->assign('booluser', 1);
-		$smarty->display('newtab.tpl');
+		$smarty->display('template/newtab.tpl');
 		exit;
 	}if ($toID == $userID){		// for using same ID as the current user.
 		$smarty->assign('booluser', 1);
-		$smarty->display('newtab.tpl');
+		$smarty->display('template/newtab.tpl');
 		exit;
 	}
 	if (!isset($_POST['type'])){	//is for when radio button is not clicked.
 		$smarty->assign('booltab', 1);
 		$smarty->assign('booluser', '');
-		$smarty->display('newtab.tpl');
+		$smarty->display('template/newtab.tpl');
 		exit;
 	}if ($_POST['type'] == "debt"){
 		$amount = abs($_POST['amount']);
@@ -72,15 +72,20 @@ if(isset($_POST['submit'])){
 		VALUES (:toID, :amount, :date, :userID, :description, :balance)");
 	$insert->execute(array(':toID' => $toID, ':amount' => $amount, ':date' => $date, ':userID' => $userID,
 		':description' => $_POST['desc'], ':balance' => $balance));
-	
-	}
 	$smarty->assign('info', array( $toID, $amount, $date,  $userID,
 		 $_POST['desc'],  $balance));
 	$smarty->assign('booluser', '');
 	$smarty->assign('booltab', '');
-	$smarty->display('newtab.tpl');
+	$smarty->display('template/newtab.tpl');
 	$_POST=array();
 	$smarty->clearAllCache();
+}else{
+	$smarty->assign('booluser', '');
+	$smarty->assign('booltab', '');
+	$smarty->display('template/newtab.tpl');
+	$_POST=array();
+	$smarty->clearAllCache();
+}
 }
 catch(PDOException $e)
     {

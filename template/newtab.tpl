@@ -1,8 +1,9 @@
-{extends file="default.tpl"}
+{extends file="template/default.tpl"}
 {block name=title}
 	Tabs
 {/block}
 {block name=body}
+	 {include file='template/header.tpl'}
 	<form action="newtab.php" method="post">
 	ower: <input type="text" name="toID">
 	amount: <input type="text" name="amount"><br>
@@ -14,12 +15,6 @@
 		<br>incorrect user
 	{elseif $booltab}
 		<br>please choose a tab
-	{elseif $info}
-		<br>
-		<ul>
-		{foreach from=$info item=foo}
-    		<li>{$foo}</li>
-		{/foreach}
-		</ul>
 	{/if}
+	{include file='template/footer.tpl'}
 {/block}
