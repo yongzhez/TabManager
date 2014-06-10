@@ -10,17 +10,17 @@ try{
 
 	if(isset($_POST['submit'])){
 		session_start();
+
 		if(isset($_SESSION['ID'])){
 			$userID= $_SESSION['ID'];
-
 
 		}
 		if(isset($_SESSION['userlist'])){
 			$userlist= $_SESSION['userlist'];
 			$arrlength= count($userlist);
 
-
 		}
+
 		foreach ($userlist as $x=>$x_value){
 			if ($_POST['toID'] == $x_value){
 				$status = 0;
@@ -29,25 +29,32 @@ try{
 				$status = 1;
 			}
 		}
+
 		if (!isset($toID)){			// typing a username that doesn't exist.
 			$smarty->assign('booluser', 1);
 			$smarty->display('template/newtab.tpl');
 			exit;
-		}if ($toID == $userID){		// for using same ID as the current user.
+		}
+
+		if ($toID == $userID){		// for using same ID as the current user.
 			$smarty->assign('booluser', 1);
 			$smarty->display('template/newtab.tpl');
 			exit;
 		}
+
 		if (!isset($_POST['type'])){	//is for when radio button is not clicked.
 			$smarty->assign('booltab', 1);
 			$smarty->assign('booluser', '');
 			$smarty->display('template/newtab.tpl');
 			exit;
-		}if ($_POST['type'] == "debt"){
+		}
+
+		if ($_POST['type'] == "debt"){
 			$amount = abs($_POST['amount']);
 		}elseif ($_POST['type']== "pay"){
 			$amount = -1 * abs($_POST['amount']);
 		}
+
 		$result = $con->prepare("SELECT * FROM Main 
 			WHERE fromID = ? AND toID = ?");
 		$result->execute(array($userID, $toID));
@@ -63,6 +70,7 @@ try{
 			$balance = $amount;
 
 		} 
+		
 		$timezone = date_default_timezone_get();
 		date_default_timezone_set($timezone);
 		$date = date('m/d/Y h:i:s a', time());

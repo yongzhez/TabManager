@@ -1,16 +1,15 @@
 <?php
 
-
-
-
 try{
 
 	require 'smarty3/Smarty.class.php';
 
-	include('extras/con.php');
+	include('../extras/con.php');
 
 	$smarty = new Smarty;
+
 	if (isset($_POST['user']) && isset($_POST['pass'])){
+
 		$user =  $_POST['user'];
 		$pass =  $_POST['pass'];
 
@@ -56,6 +55,7 @@ try{
 			$transfer = 1;
 			startup($userID, $userlist, $smarty);
 		}
+
 	}else{
 		session_start();
 		$userID = $_SESSION['ID'];
@@ -71,9 +71,9 @@ catch(PDOException $e)
 	echo $e->getMessage();
 }
 function startup($userID, $userlist, $smarty){
+
 	global $user, $con;
 	$smarty->assign('user', $user);//stores the name to be displayed
-
 
 	$result = $con->prepare('SELECT * FROM Main
 		WHERE toID = ?');
