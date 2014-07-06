@@ -7,4 +7,3 @@ $cred['pass'] = 'test';
 //this is the connection used.
 $con= new PDO('mysql:host='.$cred['host'].'; dbname='.$cred['db'], $cred['user'], $cred['pass']);
 
-?>
