@@ -8,13 +8,13 @@ require 'smarty3/Smarty.class.php';
 
 class SmartyWrapper extends Smarty{
 
-	function __construct($cwd) {
+	function __construct() {
 		parent::__construct();
-		$this->smartySettings($cwd);
+		$this->smartySettings();
 	}
-	function smartySettings($cwd) {
-
-        $this->template_dir = $cwd.'/template/';
+	function smartySettings() {
+        $this->compile_dir = ROOT_PATH.'/pages/templates_c';
+        $this->template_dir = ROOT_PATH.'/template/';
 		$this->force_compile = false;
 		$this->caching = false; #TODO: Set true for production
 		$this->merge_compiled_includes = true;

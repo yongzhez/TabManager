@@ -17,8 +17,8 @@ class Default_page extends SmartyWrapper{
 	/*
 	 *
 	 */
-	function __construct($cwd){
-		parent::__construct($cwd);
+	function __construct(){
+		parent::__construct();
 	}
 
 	/*

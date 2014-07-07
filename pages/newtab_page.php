@@ -14,8 +14,8 @@ class newtab_page extends Default_page{
 
 	public $toID;
 
-	function __construct($cwd){
-		parent::__construct($cwd);
+	function __construct(){
+		parent::__construct();
 	}
 
 	function assign_toID(){

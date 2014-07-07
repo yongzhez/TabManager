@@ -1,0 +1,781 @@
+[28-Jun-2014 16:30:27 America/New_York] PHP Notice:  Undefined index: ID in /home/jason/dev/TabManager/signin.php on line 62
+[28-Jun-2014 16:30:27 America/New_York] PHP Notice:  Undefined index: userlist in /home/jason/dev/TabManager/signin.php on line 63
+[28-Jun-2014 16:30:27 America/New_York] PHP Notice:  Undefined index: name in /home/jason/dev/TabManager/signin.php on line 64
+[28-Jun-2014 16:38:56 America/New_York] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[28-Jun-2014 16:38:56 America/New_York] PHP Fatal error:  Unknown: Failed opening required '/home/server/TabManager/signin.php' (include_path='.:/usr/share/php:/usr/share/pear') in Unknown on line 0
+[28-Jun-2014 16:43:25 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/jason/dev/TabManager/signin.php:4) in /home/jason/dev/TabManager/signin.php on line 63
+[28-Jun-2014 16:43:25 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/jason/dev/TabManager/signin.php:4) in /home/jason/dev/TabManager/signin.php on line 63
+[28-Jun-2014 16:43:25 America/New_York] PHP Notice:  Undefined index: ID in /home/jason/dev/TabManager/signin.php on line 64
+[28-Jun-2014 16:43:25 America/New_York] PHP Notice:  Undefined index: userlist in /home/jason/dev/TabManager/signin.php on line 65
+[28-Jun-2014 16:43:25 America/New_York] PHP Notice:  Undefined index: name in /home/jason/dev/TabManager/signin.php on line 66
+[28-Jun-2014 16:43:33 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/jason/dev/TabManager/signin.php:4) in /home/jason/dev/TabManager/signin.php on line 63
+[28-Jun-2014 16:43:33 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/jason/dev/TabManager/signin.php:4) in /home/jason/dev/TabManager/signin.php on line 63
+[28-Jun-2014 16:43:33 America/New_York] PHP Notice:  Undefined index: ID in /home/jason/dev/TabManager/signin.php on line 64
+[28-Jun-2014 16:43:33 America/New_York] PHP Notice:  Undefined index: userlist in /home/jason/dev/TabManager/signin.php on line 65
+[28-Jun-2014 16:43:33 America/New_York] PHP Notice:  Undefined index: name in /home/jason/dev/TabManager/signin.php on line 66
+[28-Jun-2014 16:44:33 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/jason/dev/TabManager/signin.php:4) in /home/jason/dev/TabManager/signin.php on line 63
+[28-Jun-2014 16:44:33 America/New_York] PHP Stack trace:
+[28-Jun-2014 16:44:33 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[28-Jun-2014 16:44:33 America/New_York] PHP   2. session_start() /home/jason/dev/TabManager/signin.php:63
+[28-Jun-2014 16:44:33 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/jason/dev/TabManager/signin.php:4) in /home/jason/dev/TabManager/signin.php on line 63
+[28-Jun-2014 16:44:33 America/New_York] PHP Stack trace:
+[28-Jun-2014 16:44:33 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[28-Jun-2014 16:44:33 America/New_York] PHP   2. session_start() /home/jason/dev/TabManager/signin.php:63
+[28-Jun-2014 16:44:33 America/New_York] PHP Notice:  Undefined index: ID in /home/jason/dev/TabManager/signin.php on line 64
+[28-Jun-2014 16:44:33 America/New_York] PHP Stack trace:
+[28-Jun-2014 16:44:33 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[28-Jun-2014 16:44:33 America/New_York] PHP Notice:  Undefined index: userlist in /home/jason/dev/TabManager/signin.php on line 65
+[28-Jun-2014 16:44:33 America/New_York] PHP Stack trace:
+[28-Jun-2014 16:44:33 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[28-Jun-2014 16:44:33 America/New_York] PHP Notice:  Undefined index: name in /home/jason/dev/TabManager/signin.php on line 66
+[28-Jun-2014 16:44:33 America/New_York] PHP Stack trace:
+[28-Jun-2014 16:44:33 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[28-Jun-2014 16:44:43 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/jason/dev/TabManager/signin.php:4) in /home/jason/dev/TabManager/signin.php on line 63
+[28-Jun-2014 16:44:43 America/New_York] PHP Stack trace:
+[28-Jun-2014 16:44:43 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[28-Jun-2014 16:44:43 America/New_York] PHP   2. session_start() /home/jason/dev/TabManager/signin.php:63
+[28-Jun-2014 16:44:43 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/jason/dev/TabManager/signin.php:4) in /home/jason/dev/TabManager/signin.php on line 63
+[28-Jun-2014 16:44:43 America/New_York] PHP Stack trace:
+[28-Jun-2014 16:44:43 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[28-Jun-2014 16:44:43 America/New_York] PHP   2. session_start() /home/jason/dev/TabManager/signin.php:63
+[28-Jun-2014 16:44:43 America/New_York] PHP Notice:  Undefined index: ID in /home/jason/dev/TabManager/signin.php on line 64
+[28-Jun-2014 16:44:43 America/New_York] PHP Stack trace:
+[28-Jun-2014 16:44:43 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[28-Jun-2014 16:44:43 America/New_York] PHP Notice:  Undefined index: userlist in /home/jason/dev/TabManager/signin.php on line 65
+[28-Jun-2014 16:44:43 America/New_York] PHP Stack trace:
+[28-Jun-2014 16:44:43 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[28-Jun-2014 16:44:43 America/New_York] PHP Notice:  Undefined index: name in /home/jason/dev/TabManager/signin.php on line 66
+[28-Jun-2014 16:44:43 America/New_York] PHP Stack trace:
+[28-Jun-2014 16:44:43 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[28-Jun-2014 16:48:23 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/jason/dev/TabManager/signin.php:4) in /home/jason/dev/TabManager/signin.php on line 63
+[28-Jun-2014 16:48:23 America/New_York] PHP Stack trace:
+[28-Jun-2014 16:48:23 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[28-Jun-2014 16:48:23 America/New_York] PHP   2. session_start() /home/jason/dev/TabManager/signin.php:63
+[28-Jun-2014 16:48:23 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/jason/dev/TabManager/signin.php:4) in /home/jason/dev/TabManager/signin.php on line 63
+[28-Jun-2014 16:48:23 America/New_York] PHP Stack trace:
+[28-Jun-2014 16:48:23 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[28-Jun-2014 16:48:23 America/New_York] PHP   2. session_start() /home/jason/dev/TabManager/signin.php:63
+[28-Jun-2014 16:48:23 America/New_York] PHP Notice:  Undefined index: ID in /home/jason/dev/TabManager/signin.php on line 64
+[28-Jun-2014 16:48:23 America/New_York] PHP Stack trace:
+[28-Jun-2014 16:48:23 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[28-Jun-2014 16:48:23 America/New_York] PHP Notice:  Undefined index: userlist in /home/jason/dev/TabManager/signin.php on line 65
+[28-Jun-2014 16:48:23 America/New_York] PHP Stack trace:
+[28-Jun-2014 16:48:23 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[28-Jun-2014 16:48:23 America/New_York] PHP Notice:  Undefined index: name in /home/jason/dev/TabManager/signin.php on line 66
+[28-Jun-2014 16:48:23 America/New_York] PHP Stack trace:
+[28-Jun-2014 16:48:23 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[28-Jun-2014 16:48:28 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/jason/dev/TabManager/signin.php:4) in /home/jason/dev/TabManager/signin.php on line 63
+[28-Jun-2014 16:48:28 America/New_York] PHP Stack trace:
+[28-Jun-2014 16:48:28 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[28-Jun-2014 16:48:28 America/New_York] PHP   2. session_start() /home/jason/dev/TabManager/signin.php:63
+[28-Jun-2014 16:48:28 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/jason/dev/TabManager/signin.php:4) in /home/jason/dev/TabManager/signin.php on line 63
+[28-Jun-2014 16:48:28 America/New_York] PHP Stack trace:
+[28-Jun-2014 16:48:28 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[28-Jun-2014 16:48:28 America/New_York] PHP   2. session_start() /home/jason/dev/TabManager/signin.php:63
+[28-Jun-2014 16:48:28 America/New_York] PHP Notice:  Undefined index: ID in /home/jason/dev/TabManager/signin.php on line 64
+[28-Jun-2014 16:48:28 America/New_York] PHP Stack trace:
+[28-Jun-2014 16:48:28 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[28-Jun-2014 16:48:28 America/New_York] PHP Notice:  Undefined index: userlist in /home/jason/dev/TabManager/signin.php on line 65
+[28-Jun-2014 16:48:28 America/New_York] PHP Stack trace:
+[28-Jun-2014 16:48:28 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[28-Jun-2014 16:48:28 America/New_York] PHP Notice:  Undefined index: name in /home/jason/dev/TabManager/signin.php on line 66
+[28-Jun-2014 16:48:28 America/New_York] PHP Stack trace:
+[28-Jun-2014 16:48:28 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[28-Jun-2014 16:51:54 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/jason/dev/TabManager/signin.php:4) in /home/jason/dev/TabManager/signin.php on line 63
+[28-Jun-2014 16:51:54 America/New_York] PHP Stack trace:
+[28-Jun-2014 16:51:54 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[28-Jun-2014 16:51:54 America/New_York] PHP   2. session_start() /home/jason/dev/TabManager/signin.php:63
+[28-Jun-2014 16:51:54 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/jason/dev/TabManager/signin.php:4) in /home/jason/dev/TabManager/signin.php on line 63
+[28-Jun-2014 16:51:54 America/New_York] PHP Stack trace:
+[28-Jun-2014 16:51:54 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[28-Jun-2014 16:51:54 America/New_York] PHP   2. session_start() /home/jason/dev/TabManager/signin.php:63
+[28-Jun-2014 16:51:54 America/New_York] PHP Notice:  Undefined index: ID in /home/jason/dev/TabManager/signin.php on line 64
+[28-Jun-2014 16:51:54 America/New_York] PHP Stack trace:
+[28-Jun-2014 16:51:54 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[28-Jun-2014 16:51:54 America/New_York] PHP Notice:  Undefined index: userlist in /home/jason/dev/TabManager/signin.php on line 65
+[28-Jun-2014 16:51:54 America/New_York] PHP Stack trace:
+[28-Jun-2014 16:51:54 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[28-Jun-2014 16:51:54 America/New_York] PHP Notice:  Undefined index: name in /home/jason/dev/TabManager/signin.php on line 66
+[28-Jun-2014 16:51:54 America/New_York] PHP Stack trace:
+[28-Jun-2014 16:51:54 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[28-Jun-2014 16:52:16 America/New_York] PHP Notice:  Undefined index: ID in /home/jason/dev/TabManager/signin.php on line 61
+[28-Jun-2014 16:52:16 America/New_York] PHP Stack trace:
+[28-Jun-2014 16:52:16 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[28-Jun-2014 16:52:16 America/New_York] PHP Notice:  Undefined index: userlist in /home/jason/dev/TabManager/signin.php on line 62
+[28-Jun-2014 16:52:16 America/New_York] PHP Stack trace:
+[28-Jun-2014 16:52:16 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[28-Jun-2014 16:52:16 America/New_York] PHP Notice:  Undefined index: name in /home/jason/dev/TabManager/signin.php on line 63
+[28-Jun-2014 16:52:16 America/New_York] PHP Stack trace:
+[28-Jun-2014 16:52:16 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[29-Jun-2014 14:12:42 America/New_York] PHP Notice:  Undefined index: ID in /home/jason/dev/TabManager/signin.php on line 61
+[29-Jun-2014 14:12:42 America/New_York] PHP Stack trace:
+[29-Jun-2014 14:12:42 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[29-Jun-2014 14:12:42 America/New_York] PHP Notice:  Undefined index: userlist in /home/jason/dev/TabManager/signin.php on line 62
+[29-Jun-2014 14:12:42 America/New_York] PHP Stack trace:
+[29-Jun-2014 14:12:42 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[29-Jun-2014 14:12:42 America/New_York] PHP Notice:  Undefined index: name in /home/jason/dev/TabManager/signin.php on line 63
+[29-Jun-2014 14:12:42 America/New_York] PHP Stack trace:
+[29-Jun-2014 14:12:42 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[29-Jun-2014 14:13:05 America/New_York] PHP Warning:  include(../extras/con.php): failed to open stream: No such file or directory in /home/jason/dev/TabManager/newtab.php on line 7
+[29-Jun-2014 14:13:05 America/New_York] PHP Stack trace:
+[29-Jun-2014 14:13:05 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab.php:0
+[29-Jun-2014 14:13:05 America/New_York] PHP Warning:  include(): Failed opening '../extras/con.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/jason/dev/TabManager/newtab.php on line 7
+[29-Jun-2014 14:13:05 America/New_York] PHP Stack trace:
+[29-Jun-2014 14:13:05 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab.php:0
+[29-Jun-2014 14:13:40 America/New_York] PHP Warning:  include(../con.php): failed to open stream: No such file or directory in /home/jason/dev/TabManager/newtab.php on line 7
+[29-Jun-2014 14:13:40 America/New_York] PHP Stack trace:
+[29-Jun-2014 14:13:40 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab.php:0
+[29-Jun-2014 14:13:40 America/New_York] PHP Warning:  include(): Failed opening '../con.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/jason/dev/TabManager/newtab.php on line 7
+[29-Jun-2014 14:13:40 America/New_York] PHP Stack trace:
+[29-Jun-2014 14:13:40 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab.php:0
+[30-Jun-2014 21:46:07 America/New_York] PHP Notice:  Undefined index: ID in /home/jason/dev/TabManager/signin.php on line 61
+[30-Jun-2014 21:46:07 America/New_York] PHP Stack trace:
+[30-Jun-2014 21:46:07 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[30-Jun-2014 21:46:07 America/New_York] PHP Notice:  Undefined index: userlist in /home/jason/dev/TabManager/signin.php on line 62
+[30-Jun-2014 21:46:07 America/New_York] PHP Stack trace:
+[30-Jun-2014 21:46:07 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[30-Jun-2014 21:46:07 America/New_York] PHP Notice:  Undefined index: name in /home/jason/dev/TabManager/signin.php on line 63
+[30-Jun-2014 21:46:07 America/New_York] PHP Stack trace:
+[30-Jun-2014 21:46:07 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/signin.php:0
+[30-Jun-2014 21:52:44 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[30-Jun-2014 21:52:44 America/New_York] PHP Stack trace:
+[30-Jun-2014 21:52:44 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[30-Jun-2014 21:52:44 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[30-Jun-2014 21:52:44 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[30-Jun-2014 21:53:54 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[30-Jun-2014 21:53:54 America/New_York] PHP Stack trace:
+[30-Jun-2014 21:53:54 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[30-Jun-2014 21:53:54 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[30-Jun-2014 21:53:54 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[30-Jun-2014 21:56:53 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[30-Jun-2014 21:56:53 America/New_York] PHP Stack trace:
+[30-Jun-2014 21:56:53 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[30-Jun-2014 21:56:53 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[30-Jun-2014 21:56:53 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[30-Jun-2014 21:57:00 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[30-Jun-2014 21:57:00 America/New_York] PHP Stack trace:
+[30-Jun-2014 21:57:00 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[30-Jun-2014 21:57:00 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[30-Jun-2014 21:57:00 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[30-Jun-2014 21:57:13 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[30-Jun-2014 21:57:13 America/New_York] PHP Stack trace:
+[30-Jun-2014 21:57:13 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[30-Jun-2014 21:57:13 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[30-Jun-2014 21:57:13 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[30-Jun-2014 21:58:39 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[30-Jun-2014 21:58:39 America/New_York] PHP Stack trace:
+[30-Jun-2014 21:58:39 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[30-Jun-2014 21:58:39 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[30-Jun-2014 21:58:39 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[01-Jul-2014 20:43:42 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[01-Jul-2014 20:43:42 America/New_York] PHP Stack trace:
+[01-Jul-2014 20:43:42 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[01-Jul-2014 20:43:42 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[01-Jul-2014 20:43:42 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[01-Jul-2014 20:48:22 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[01-Jul-2014 20:48:22 America/New_York] PHP Stack trace:
+[01-Jul-2014 20:48:22 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[01-Jul-2014 20:48:22 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[01-Jul-2014 20:48:22 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[01-Jul-2014 20:48:24 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[01-Jul-2014 20:48:24 America/New_York] PHP Stack trace:
+[01-Jul-2014 20:48:24 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[01-Jul-2014 20:48:24 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[01-Jul-2014 20:48:24 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[01-Jul-2014 20:48:24 America/New_York] PHP Notice:  Undefined variable: smarty in /home/jason/dev/TabManager/newtab_page.php on line 109
+[01-Jul-2014 20:48:24 America/New_York] PHP Stack trace:
+[01-Jul-2014 20:48:24 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[01-Jul-2014 20:48:24 America/New_York] PHP Fatal error:  Call to a member function assign() on a non-object in /home/jason/dev/TabManager/newtab_page.php on line 109
+[01-Jul-2014 20:48:24 America/New_York] PHP Stack trace:
+[01-Jul-2014 20:48:24 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[01-Jul-2014 20:53:23 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[01-Jul-2014 20:53:23 America/New_York] PHP Stack trace:
+[01-Jul-2014 20:53:23 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[01-Jul-2014 20:53:23 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[01-Jul-2014 20:53:23 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[01-Jul-2014 20:54:06 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[01-Jul-2014 20:54:06 America/New_York] PHP Stack trace:
+[01-Jul-2014 20:54:06 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[01-Jul-2014 20:54:06 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[01-Jul-2014 20:54:06 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[01-Jul-2014 20:54:06 America/New_York] PHP Notice:  Undefined variable: user in /home/jason/dev/TabManager/entry_page.php on line 33
+[01-Jul-2014 20:54:06 America/New_York] PHP Stack trace:
+[01-Jul-2014 20:54:06 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[01-Jul-2014 20:54:35 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[01-Jul-2014 20:54:35 America/New_York] PHP Stack trace:
+[01-Jul-2014 20:54:35 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[01-Jul-2014 20:54:35 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[01-Jul-2014 20:54:35 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[01-Jul-2014 20:54:58 America/New_York] PHP Notice:  Undefined variable: userlist in /home/jason/dev/TabManager/newtab.php on line 22
+[01-Jul-2014 20:54:58 America/New_York] PHP Stack trace:
+[01-Jul-2014 20:54:58 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab.php:0
+[01-Jul-2014 20:54:58 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/jason/dev/TabManager/newtab.php on line 22
+[01-Jul-2014 20:54:58 America/New_York] PHP Stack trace:
+[01-Jul-2014 20:54:58 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab.php:0
+[01-Jul-2014 20:55:10 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[01-Jul-2014 20:55:10 America/New_York] PHP Stack trace:
+[01-Jul-2014 20:55:10 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[01-Jul-2014 20:55:10 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[01-Jul-2014 20:55:10 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[01-Jul-2014 20:55:10 America/New_York] PHP Notice:  Undefined variable: user in /home/jason/dev/TabManager/entry_page.php on line 33
+[01-Jul-2014 20:55:10 America/New_York] PHP Stack trace:
+[01-Jul-2014 20:55:10 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[01-Jul-2014 20:55:11 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[01-Jul-2014 20:55:11 America/New_York] PHP Stack trace:
+[01-Jul-2014 20:55:11 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[01-Jul-2014 20:55:11 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[01-Jul-2014 20:55:11 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[01-Jul-2014 20:55:48 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[01-Jul-2014 20:55:48 America/New_York] PHP Stack trace:
+[01-Jul-2014 20:55:48 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[01-Jul-2014 20:55:48 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[01-Jul-2014 20:55:48 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[01-Jul-2014 20:55:48 America/New_York] PHP Notice:  Undefined variable: user in /home/jason/dev/TabManager/entry_page.php on line 33
+[01-Jul-2014 20:55:48 America/New_York] PHP Stack trace:
+[01-Jul-2014 20:55:48 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[01-Jul-2014 20:56:42 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[01-Jul-2014 20:56:42 America/New_York] PHP Stack trace:
+[01-Jul-2014 20:56:42 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[01-Jul-2014 20:56:42 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[01-Jul-2014 20:56:42 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[01-Jul-2014 20:56:43 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[01-Jul-2014 20:56:43 America/New_York] PHP Stack trace:
+[01-Jul-2014 20:56:43 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[01-Jul-2014 20:56:43 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[01-Jul-2014 20:56:43 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[01-Jul-2014 20:59:25 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[01-Jul-2014 20:59:25 America/New_York] PHP Stack trace:
+[01-Jul-2014 20:59:25 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[01-Jul-2014 20:59:25 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[01-Jul-2014 20:59:25 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[01-Jul-2014 20:59:35 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[01-Jul-2014 20:59:35 America/New_York] PHP Stack trace:
+[01-Jul-2014 20:59:35 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[01-Jul-2014 20:59:35 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[01-Jul-2014 20:59:35 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[01-Jul-2014 20:59:38 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[01-Jul-2014 20:59:38 America/New_York] PHP Stack trace:
+[01-Jul-2014 20:59:38 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[01-Jul-2014 20:59:38 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[01-Jul-2014 20:59:38 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[01-Jul-2014 20:59:40 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[01-Jul-2014 20:59:40 America/New_York] PHP Stack trace:
+[01-Jul-2014 20:59:40 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[01-Jul-2014 20:59:40 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[01-Jul-2014 20:59:40 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[01-Jul-2014 20:59:58 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[01-Jul-2014 20:59:58 America/New_York] PHP Stack trace:
+[01-Jul-2014 20:59:58 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[01-Jul-2014 20:59:58 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[01-Jul-2014 20:59:58 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[01-Jul-2014 21:00:03 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[01-Jul-2014 21:00:03 America/New_York] PHP Stack trace:
+[01-Jul-2014 21:00:03 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[01-Jul-2014 21:00:03 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[01-Jul-2014 21:00:03 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[01-Jul-2014 21:00:06 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[01-Jul-2014 21:00:06 America/New_York] PHP Stack trace:
+[01-Jul-2014 21:00:06 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[01-Jul-2014 21:00:06 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[01-Jul-2014 21:00:06 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[01-Jul-2014 21:00:08 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[01-Jul-2014 21:00:08 America/New_York] PHP Stack trace:
+[01-Jul-2014 21:00:08 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[01-Jul-2014 21:00:08 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[01-Jul-2014 21:00:08 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[01-Jul-2014 21:04:01 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[01-Jul-2014 21:04:01 America/New_York] PHP Stack trace:
+[01-Jul-2014 21:04:01 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[01-Jul-2014 21:04:01 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[01-Jul-2014 21:04:01 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[01-Jul-2014 21:04:05 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[01-Jul-2014 21:04:05 America/New_York] PHP Stack trace:
+[01-Jul-2014 21:04:05 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[01-Jul-2014 21:04:05 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[01-Jul-2014 21:04:05 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[01-Jul-2014 21:04:06 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[01-Jul-2014 21:04:06 America/New_York] PHP Stack trace:
+[01-Jul-2014 21:04:06 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[01-Jul-2014 21:04:06 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[01-Jul-2014 21:04:06 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:21:57 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:21:57 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:22:03 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:22:03 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:22:03 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 14:22:03 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 14:22:03 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[06-Jul-2014 14:22:03 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[06-Jul-2014 14:22:03 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:22:03 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:22:11 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:22:11 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:22:11 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:22:11 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:22:11 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:22:13 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:22:13 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:22:13 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 14:22:13 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[06-Jul-2014 14:22:13 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:26:27 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:26:27 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:26:27 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:26:27 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:26:27 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:27:26 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:27:26 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:27:26 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:27:26 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:27:26 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:27:27 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:27:27 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:27:27 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:27:27 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:27:27 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:27:27 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:27:27 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:27:27 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:27:27 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:27:27 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:27:27 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:27:27 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:27:27 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:27:27 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:27:27 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:27:27 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:27:27 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:27:27 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:27:27 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:27:27 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:27:45 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:27:45 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:27:45 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:27:45 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:27:45 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:27:47 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:27:47 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:27:47 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 14:27:47 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[06-Jul-2014 14:27:47 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:27:48 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:27:48 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:27:48 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:27:48 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:27:48 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:27:59 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:27:59 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:27:59 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 14:27:59 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[06-Jul-2014 14:27:59 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:28:00 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:28:00 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:28:00 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:28:00 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:28:00 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:29:20 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:29:20 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:29:20 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 14:29:20 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[06-Jul-2014 14:29:20 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:29:21 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:29:21 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:29:21 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:29:21 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:29:21 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:30:44 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:30:44 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:30:44 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 14:30:44 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[06-Jul-2014 14:30:44 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:30:45 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:30:45 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:30:45 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:30:45 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:30:45 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:32:07 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:32:07 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:32:07 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 14:32:07 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[06-Jul-2014 14:32:07 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:32:08 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:32:08 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:32:08 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:32:08 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:32:08 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:32:35 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:32:35 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:32:35 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 14:32:35 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[06-Jul-2014 14:32:35 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:32:42 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:32:42 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:32:42 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:32:42 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:32:42 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:32:52 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:32:52 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:32:52 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 14:32:52 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[06-Jul-2014 14:32:52 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:33:30 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:33:30 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:33:30 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:33:30 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:33:30 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:33:39 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:33:39 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:33:39 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 14:33:39 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[06-Jul-2014 14:33:39 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:33:42 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:33:42 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:33:42 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:33:42 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:33:42 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:33:44 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:33:44 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:33:44 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 14:33:44 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[06-Jul-2014 14:33:44 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:35:19 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:35:19 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:35:19 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 14:35:19 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[06-Jul-2014 14:35:19 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:35:21 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:35:21 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:35:21 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:35:21 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:35:21 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:35:27 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:35:27 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:35:27 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 14:35:27 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[06-Jul-2014 14:35:27 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:38:44 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:38:44 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:38:44 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:38:44 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:38:44 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:38:51 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:38:51 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:38:51 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 14:38:51 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[06-Jul-2014 14:38:51 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:38:53 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:38:53 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:38:53 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:38:53 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:38:53 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:38:54 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:38:54 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:38:54 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 14:38:54 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[06-Jul-2014 14:38:54 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:42:08 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:42:08 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:42:08 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:42:08 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:42:08 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:42:11 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:42:11 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:42:11 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 14:42:11 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[06-Jul-2014 14:42:11 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:42:13 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:42:13 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:42:13 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:42:13 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:42:13 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:42:25 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:42:25 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:42:25 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 14:42:25 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[06-Jul-2014 14:42:25 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:42:26 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:42:26 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:42:26 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:42:26 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:42:26 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:42:40 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:42:40 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:42:40 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:42:40 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:42:40 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:42:40 America/New_York] PHP Notice:  Undefined variable: userID in /home/jason/dev/TabManager/newtab_page.php on line 31
+[06-Jul-2014 14:42:40 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:42:40 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:42:40 America/New_York] PHP   2. newtab_page->semantic_check() /home/jason/dev/TabManager/newtab_page.php:90
+[06-Jul-2014 14:42:40 America/New_York] PHP Notice:  Undefined property: newtab_page::$ in /usr/share/php/smarty3/Smarty.class.php on line 671
+[06-Jul-2014 14:42:40 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:42:40 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:42:40 America/New_York] PHP   2. newtab_page->semantic_check() /home/jason/dev/TabManager/newtab_page.php:90
+[06-Jul-2014 14:42:40 America/New_York] PHP   3. Smarty->__get() /home/jason/dev/TabManager/newtab_page.php:31
+[06-Jul-2014 14:42:40 America/New_York] PHP   4. trigger_error() /usr/share/php/smarty3/Smarty.class.php:671
+[06-Jul-2014 14:42:40 America/New_York] PHP Notice:  Undefined variable: toID in /home/jason/dev/TabManager/newtab_page.php on line 100
+[06-Jul-2014 14:42:40 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:42:40 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:42:40 America/New_York] PHP Notice:  Undefined variable: userID in /home/jason/dev/TabManager/newtab_page.php on line 100
+[06-Jul-2014 14:42:40 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:42:40 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:42:40 America/New_York] PHP Notice:  Undefined variable: toID in /home/jason/dev/TabManager/newtab_page.php on line 102
+[06-Jul-2014 14:42:40 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:42:40 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:42:40 America/New_York] PHP Notice:  Undefined variable: userID in /home/jason/dev/TabManager/newtab_page.php on line 102
+[06-Jul-2014 14:42:40 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:42:40 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:46:17 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:46:17 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:46:17 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:46:17 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:46:17 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:46:26 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:46:26 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:46:26 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:46:26 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:46:26 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:46:26 America/New_York] PHP Notice:  Undefined variable: userid in /home/jason/dev/TabManager/newtab_page.php on line 31
+[06-Jul-2014 14:46:26 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:46:26 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:46:26 America/New_York] PHP   2. newtab_page->semantic_check() /home/jason/dev/TabManager/newtab_page.php:90
+[06-Jul-2014 14:46:26 America/New_York] PHP Notice:  Undefined property: newtab_page::$ in /usr/share/php/smarty3/Smarty.class.php on line 671
+[06-Jul-2014 14:46:26 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:46:26 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:46:26 America/New_York] PHP   2. newtab_page->semantic_check() /home/jason/dev/TabManager/newtab_page.php:90
+[06-Jul-2014 14:46:26 America/New_York] PHP   3. Smarty->__get() /home/jason/dev/TabManager/newtab_page.php:31
+[06-Jul-2014 14:46:26 America/New_York] PHP   4. trigger_error() /usr/share/php/smarty3/Smarty.class.php:671
+[06-Jul-2014 14:46:54 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:46:54 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:46:54 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:46:54 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:46:54 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:47:02 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:47:02 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:47:02 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:47:02 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:47:02 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:47:08 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:47:08 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:47:08 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 14:47:08 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[06-Jul-2014 14:47:08 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:47:10 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:47:10 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:47:10 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:47:10 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:47:10 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:47:22 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:47:22 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:47:22 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:47:22 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:47:22 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:49:25 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:49:25 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:49:25 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:49:25 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:49:25 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:49:32 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:49:32 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:49:32 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 14:49:32 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[06-Jul-2014 14:49:32 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:49:33 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:49:33 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:49:33 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:49:33 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:49:33 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:49:45 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:49:45 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:49:45 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:49:45 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:49:45 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:49:54 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:49:54 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:49:54 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:49:54 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:49:54 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:52:13 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:52:13 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:52:13 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:52:13 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:52:13 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:54:35 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:54:35 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:54:35 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:54:35 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:54:35 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:54:37 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:54:37 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:54:37 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 14:54:37 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[06-Jul-2014 14:54:37 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:54:39 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:54:39 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:54:39 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:54:39 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:54:39 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:54:53 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:54:53 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:54:53 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:54:53 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:54:53 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:55:20 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:55:20 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:55:20 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:55:20 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:55:20 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:55:30 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:55:30 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:55:30 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 14:55:30 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[06-Jul-2014 14:55:30 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:55:45 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:55:45 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:55:45 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:55:45 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:55:45 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:55:46 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:55:46 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:55:46 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 14:55:46 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[06-Jul-2014 14:55:46 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:56:17 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:56:17 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:56:17 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 14:56:17 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[06-Jul-2014 14:56:17 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:58:08 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:58:08 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:58:08 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:58:08 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:58:08 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:58:17 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:58:17 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:58:17 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[06-Jul-2014 14:58:17 America/New_York] PHP   2. include() /home/jason/dev/TabManager/newtab_page.php:2
+[06-Jul-2014 14:58:17 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 14:58:23 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 14:58:23 America/New_York] PHP Stack trace:
+[06-Jul-2014 14:58:23 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 14:58:23 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[06-Jul-2014 14:58:23 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 15:52:45 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 15:52:45 America/New_York] PHP Stack trace:
+[06-Jul-2014 15:52:45 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 15:52:45 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[06-Jul-2014 15:52:45 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 15:52:45 America/New_York] PHP Notice:  Undefined index: name in /home/jason/dev/TabManager/entry_page.php on line 31
+[06-Jul-2014 15:52:45 America/New_York] PHP Stack trace:
+[06-Jul-2014 15:52:45 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 15:52:45 America/New_York] PHP Notice:  Undefined index: userlist in /home/jason/dev/TabManager/entry_page.php on line 32
+[06-Jul-2014 15:52:45 America/New_York] PHP Stack trace:
+[06-Jul-2014 15:52:45 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 15:52:45 America/New_York] PHP Notice:  Undefined index: ID in /home/jason/dev/TabManager/entry_page.php on line 33
+[06-Jul-2014 15:52:45 America/New_York] PHP Stack trace:
+[06-Jul-2014 15:52:45 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 15:52:58 America/New_York] PHP Strict standards:  Declaration of SmartyWrapper::display() should be compatible with Smarty_Internal_TemplateBase::display($template = NULL, $cache_id = NULL, $compile_id = NULL, $parent = NULL) in /home/jason/dev/TabManager/wrapper.php on line 9
+[06-Jul-2014 15:52:58 America/New_York] PHP Stack trace:
+[06-Jul-2014 15:52:58 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 15:52:58 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[06-Jul-2014 15:52:58 America/New_York] PHP   3. include() /home/jason/dev/TabManager/default_page.php:2
+[06-Jul-2014 17:41:52 America/New_York] PHP Warning:  include(../wrapper.php): failed to open stream: No such file or directory in /home/jason/dev/TabManager/default_page.php on line 2
+[06-Jul-2014 17:41:52 America/New_York] PHP Stack trace:
+[06-Jul-2014 17:41:52 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 17:41:52 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[06-Jul-2014 17:41:52 America/New_York] PHP Warning:  include(): Failed opening '../wrapper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/jason/dev/TabManager/default_page.php on line 2
+[06-Jul-2014 17:41:52 America/New_York] PHP Stack trace:
+[06-Jul-2014 17:41:52 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 17:41:52 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[06-Jul-2014 17:41:52 America/New_York] PHP Fatal error:  Class 'SmartyWrapper' not found in /home/jason/dev/TabManager/default_page.php on line 7
+[06-Jul-2014 17:41:52 America/New_York] PHP Stack trace:
+[06-Jul-2014 17:41:52 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 17:41:52 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:2
+[06-Jul-2014 17:42:18 America/New_York] PHP Warning:  include(../con.php): failed to open stream: No such file or directory in /home/jason/dev/TabManager/entry_page.php on line 3
+[06-Jul-2014 17:42:18 America/New_York] PHP Stack trace:
+[06-Jul-2014 17:42:18 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 17:42:18 America/New_York] PHP Warning:  include(): Failed opening '../con.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/jason/dev/TabManager/entry_page.php on line 3
+[06-Jul-2014 17:42:18 America/New_York] PHP Stack trace:
+[06-Jul-2014 17:42:18 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 17:42:18 America/New_York] PHP Notice:  Undefined variable: con in /home/jason/dev/TabManager/entry_page.php on line 18
+[06-Jul-2014 17:42:18 America/New_York] PHP Stack trace:
+[06-Jul-2014 17:42:18 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 17:42:18 America/New_York] PHP Fatal error:  Call to a member function query() on a non-object in /home/jason/dev/TabManager/default_page.php on line 52
+[06-Jul-2014 17:42:18 America/New_York] PHP Stack trace:
+[06-Jul-2014 17:42:18 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 17:42:18 America/New_York] PHP   2. Default_page->create_userlist() /home/jason/dev/TabManager/entry_page.php:18
+[06-Jul-2014 20:03:14 America/New_York] PHP Warning:  include(ROOT_PATH/default_page.php): failed to open stream: No such file or directory in /home/jason/dev/TabManager/entry_page.php on line 5
+[06-Jul-2014 20:03:14 America/New_York] PHP Stack trace:
+[06-Jul-2014 20:03:14 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 20:03:14 America/New_York] PHP Warning:  include(): Failed opening 'ROOT_PATH/default_page.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/jason/dev/TabManager/entry_page.php on line 5
+[06-Jul-2014 20:03:14 America/New_York] PHP Stack trace:
+[06-Jul-2014 20:03:14 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 20:03:14 America/New_York] PHP Warning:  include(ROOT_PATH/con.php): failed to open stream: No such file or directory in /home/jason/dev/TabManager/entry_page.php on line 6
+[06-Jul-2014 20:03:14 America/New_York] PHP Stack trace:
+[06-Jul-2014 20:03:14 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 20:03:14 America/New_York] PHP Warning:  include(): Failed opening 'ROOT_PATH/con.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/jason/dev/TabManager/entry_page.php on line 6
+[06-Jul-2014 20:03:14 America/New_York] PHP Stack trace:
+[06-Jul-2014 20:03:14 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 20:03:14 America/New_York] PHP Fatal error:  Class 'Default_page' not found in /home/jason/dev/TabManager/entry_page.php on line 13
+[06-Jul-2014 20:03:14 America/New_York] PHP Stack trace:
+[06-Jul-2014 20:03:14 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 21:36:18 America/New_York] PHP Warning:  include(ROOT_PATH/default_page.php): failed to open stream: No such file or directory in /home/jason/dev/TabManager/entry_page.php on line 5
+[06-Jul-2014 21:36:18 America/New_York] PHP Stack trace:
+[06-Jul-2014 21:36:18 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 21:36:18 America/New_York] PHP Warning:  include(): Failed opening 'ROOT_PATH/default_page.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/jason/dev/TabManager/entry_page.php on line 5
+[06-Jul-2014 21:36:18 America/New_York] PHP Stack trace:
+[06-Jul-2014 21:36:18 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 21:36:18 America/New_York] PHP Warning:  include(ROOT_PATH/con.php): failed to open stream: No such file or directory in /home/jason/dev/TabManager/entry_page.php on line 6
+[06-Jul-2014 21:36:18 America/New_York] PHP Stack trace:
+[06-Jul-2014 21:36:18 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 21:36:18 America/New_York] PHP Warning:  include(): Failed opening 'ROOT_PATH/con.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/jason/dev/TabManager/entry_page.php on line 6
+[06-Jul-2014 21:36:18 America/New_York] PHP Stack trace:
+[06-Jul-2014 21:36:18 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 21:36:18 America/New_York] PHP Fatal error:  Class 'Default_page' not found in /home/jason/dev/TabManager/entry_page.php on line 13
+[06-Jul-2014 21:36:18 America/New_York] PHP Stack trace:
+[06-Jul-2014 21:36:18 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 21:38:42 America/New_York] PHP Notice:  Use of undefined constant ROOT_PATH - assumed 'ROOT_PATH' in /home/jason/dev/TabManager/entry_page.php on line 3
+[06-Jul-2014 21:38:42 America/New_York] PHP Stack trace:
+[06-Jul-2014 21:38:42 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 21:38:42 America/New_York] PHP Warning:  include(ROOT_PATH/default_page.php): failed to open stream: No such file or directory in /home/jason/dev/TabManager/entry_page.php on line 5
+[06-Jul-2014 21:38:42 America/New_York] PHP Stack trace:
+[06-Jul-2014 21:38:42 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 21:38:42 America/New_York] PHP Warning:  include(): Failed opening 'ROOT_PATH/default_page.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/jason/dev/TabManager/entry_page.php on line 5
+[06-Jul-2014 21:38:42 America/New_York] PHP Stack trace:
+[06-Jul-2014 21:38:42 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 21:38:42 America/New_York] PHP Warning:  include(ROOT_PATH/con.php): failed to open stream: No such file or directory in /home/jason/dev/TabManager/entry_page.php on line 6
+[06-Jul-2014 21:38:42 America/New_York] PHP Stack trace:
+[06-Jul-2014 21:38:42 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 21:38:42 America/New_York] PHP Warning:  include(): Failed opening 'ROOT_PATH/con.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/jason/dev/TabManager/entry_page.php on line 6
+[06-Jul-2014 21:38:42 America/New_York] PHP Stack trace:
+[06-Jul-2014 21:38:42 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 21:38:42 America/New_York] PHP Fatal error:  Class 'Default_page' not found in /home/jason/dev/TabManager/entry_page.php on line 13
+[06-Jul-2014 21:38:42 America/New_York] PHP Stack trace:
+[06-Jul-2014 21:38:42 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 21:39:11 America/New_York] PHP Warning:  include(ROOT_PATH/default_page.php): failed to open stream: No such file or directory in /home/jason/dev/TabManager/entry_page.php on line 5
+[06-Jul-2014 21:39:11 America/New_York] PHP Stack trace:
+[06-Jul-2014 21:39:11 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 21:39:11 America/New_York] PHP Warning:  include(): Failed opening 'ROOT_PATH/default_page.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/jason/dev/TabManager/entry_page.php on line 5
+[06-Jul-2014 21:39:11 America/New_York] PHP Stack trace:
+[06-Jul-2014 21:39:11 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 21:39:11 America/New_York] PHP Warning:  include(ROOT_PATH/con.php): failed to open stream: No such file or directory in /home/jason/dev/TabManager/entry_page.php on line 6
+[06-Jul-2014 21:39:11 America/New_York] PHP Stack trace:
+[06-Jul-2014 21:39:11 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 21:39:11 America/New_York] PHP Warning:  include(): Failed opening 'ROOT_PATH/con.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/jason/dev/TabManager/entry_page.php on line 6
+[06-Jul-2014 21:39:11 America/New_York] PHP Stack trace:
+[06-Jul-2014 21:39:11 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 21:39:11 America/New_York] PHP Fatal error:  Class 'Default_page' not found in /home/jason/dev/TabManager/entry_page.php on line 13
+[06-Jul-2014 21:39:11 America/New_York] PHP Stack trace:
+[06-Jul-2014 21:39:11 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 21:40:17 America/New_York] PHP Warning:  include(ROOT_PATH/wrapper.php): failed to open stream: No such file or directory in /home/jason/dev/TabManager/default_page.php on line 2
+[06-Jul-2014 21:40:17 America/New_York] PHP Stack trace:
+[06-Jul-2014 21:40:17 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 21:40:17 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:5
+[06-Jul-2014 21:40:17 America/New_York] PHP Warning:  include(): Failed opening 'ROOT_PATH/wrapper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/jason/dev/TabManager/default_page.php on line 2
+[06-Jul-2014 21:40:17 America/New_York] PHP Stack trace:
+[06-Jul-2014 21:40:17 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 21:40:17 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:5
+[06-Jul-2014 21:40:17 America/New_York] PHP Fatal error:  Class 'SmartyWrapper' not found in /home/jason/dev/TabManager/default_page.php on line 7
+[06-Jul-2014 21:40:17 America/New_York] PHP Stack trace:
+[06-Jul-2014 21:40:17 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/entry_page.php:0
+[06-Jul-2014 21:40:17 America/New_York] PHP   2. include() /home/jason/dev/TabManager/entry_page.php:5
