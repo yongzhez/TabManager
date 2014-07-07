@@ -1,9 +1,9 @@
-{extends file="template/default.tpl"}
+{extends file="default.tpl"}
 {block name=title}
 	Tabs
 {/block}
 {block name=body}
-	{include file='template/header.tpl'}
+	{include file='header.tpl'}
 	<p>Welcome {$user}</p>
     	{if (!$results)}
     		<p>you have no debts</p>
@@ -28,5 +28,5 @@
     		</table>
 
     	{/if}
-    {include file='template/footer.tpl'}
+    {include file='footer.tpl'}
 {/block}

@@ -8,11 +8,14 @@ require 'smarty3/Smarty.class.php';
 
 class SmartyWrapper extends Smarty{
 
-	function __construct() {
+	function __construct($cwd) {
 		parent::__construct();
-		$this->smartySettings();
+		$this->smartySettings($cwd);
 	}
-	function smartySettings() {
+	function smartySettings($cwd) {
+
+        $this->template_dir = $cwd.'/template/';
+        print_r ($this->template_dir);
 		$this->force_compile = false;
 		$this->caching = false; #TODO: Set true for production
 		$this->merge_compiled_includes = true;

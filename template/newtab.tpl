@@ -1,10 +1,10 @@
-{extends file="template/default.tpl"}
+{extends file="default.tpl"}
 {block name=title}
 	Tabs
 {/block}
 {block name=body}
-	 {include file='template/header.tpl'}
-	<form action="newtab.php" method="post">
+	 {include file='header.tpl'}
+	<form action="newtab_page.php" method="post">
 	ower: <input type="text" name="toID">
 	amount: <input type="text" name="amount"><br>
 	desc: <textarea name="desc" rows="1" cols="40"></textarea><br>
@@ -16,5 +16,5 @@
 	{elseif $booltab}
 		<br>please choose a tab
 	{/if}
-	{include file='template/footer.tpl'}
+	{include file='footer.tpl'}
 {/block}

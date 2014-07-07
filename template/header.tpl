@@ -2,9 +2,9 @@
 
 <tr>
 
-<td><a href="../signin.php">Tables</a></td>
+<td><a href="entry_page.php">Tables</a></td>
 
-<td><a href="../newtab.php">New Record</a></td>
+<td><a href="newtab_page.php">New Record</a></td>
 
 
 </tr>
