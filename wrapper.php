@@ -15,7 +15,6 @@ class SmartyWrapper extends Smarty{
 	function smartySettings($cwd) {
 
         $this->template_dir = $cwd.'/template/';
-        print_r ($this->template_dir);
 		$this->force_compile = false;
 		$this->caching = false; #TODO: Set true for production
 		$this->merge_compiled_includes = true;

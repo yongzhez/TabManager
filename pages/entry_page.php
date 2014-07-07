@@ -6,9 +6,6 @@ define('ROOT_PATH',$_SESSION['ROOT_PATH']); //you have tp run it frm main.php an
 include(ROOT_PATH.'/pages/default_page.php');
 include(ROOT_PATH.'/con.php');
 
-//print_r(ROOT_PATH.'/pages/default_page.php');
-print("\n");
-print_r(getcwd());
 
 /*
  * primary page that is open after a user logs in
