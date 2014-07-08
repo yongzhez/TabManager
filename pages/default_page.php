@@ -12,6 +12,7 @@ class Default_page extends SmartyWrapper{
 	public $username;
 	public $userlist;
 	public $userid;
+    public $con;
 
 
 	/*
@@ -19,6 +20,13 @@ class Default_page extends SmartyWrapper{
 	 */
 	function __construct(){
 		parent::__construct();
+        $cred = array(
+            'host' => '127.0.0.1',
+            'db' => 'learn_sql',
+            'user' => 'Reader',
+            'pass' => 'test',
+        );
+        $this->con= new PDO('mysql:host='.$cred['host'].'; dbname='.$cred['db'], $cred['user'], $cred['pass']);
 	}
 
 	/*

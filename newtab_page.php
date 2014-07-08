@@ -3,8 +3,12 @@
 session_start();
 define('ROOT_PATH',$_SESSION['ROOT_PATH']);
 
-include(ROOT_PATH.'/pages/default_page.php');
-include(ROOT_PATH.'/con.php');
+include(ROOT_PATH.'/default_page.php');
+
+if (!isset($_SESSION)){
+    $page = new Default_page();
+    $page->display_temp('signin.tpl');
+}
 /*
  * page used to add amounts that the person either owes
  * or is owed too
@@ -50,7 +54,7 @@ class newtab_page extends Default_page{
 		}
 
 	}
-	function balance($con){
+	function balance(){
 
 
 		if ($_POST['type'] == "debt"){
@@ -59,7 +63,7 @@ class newtab_page extends Default_page{
 			$amount = -1 * abs($_POST['amount']);
 		}
 
-		$result = $con->prepare("SELECT * FROM Main
+		$result = $this->$con->prepare("SELECT * FROM Main
 			WHERE fromID = ? AND toID = ?");
 		$result->execute(array($this->userid, $this->toID));
 		$row_count = $result->rowCount();
@@ -103,7 +107,7 @@ try{
 
         $page->assign_toID($_POST['toID']);
 
-		$balance = $page->balance($con);
+		$balance = $page->balance();
 
 		$timezone = date_default_timezone_get();
 		date_default_timezone_set($timezone);
@@ -112,7 +116,7 @@ try{
         print_r(array(':toID' => $page->toID, ':amount' => $amount, ':date' => $date, ':userID' => $page->userid,
             ':description' => $_POST['desc'], ':balance' => $balance));
 
-		$insert = $con->prepare( "INSERT INTO Main (toID, amount, date, fromID, description, balance)
+		$insert = $this->con->prepare( "INSERT INTO Main (toID, amount, date, fromID, description, balance)
 			VALUES (:toID, :amount, :date, :userID, :description, :balance)");
 		$insert->execute(array(':toID' => $page->toID, ':amount' => $amount, ':date' => $date, ':userID' => $page->userid,
 			':description' => $_POST['desc'], ':balance' => $balance));
