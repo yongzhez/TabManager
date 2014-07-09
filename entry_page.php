@@ -1,7 +1,7 @@
 <?php
     session_start();
     define('ROOT_PATH', str_replace('\\', '/', dirname(__FILE__)) );
-    include(ROOT_PATH.'/default_page.php');
+    include(ROOT_PATH.'/pages/default_page.php');
 
 
     if (!isset($_SESSION)){
@@ -27,7 +27,7 @@ try{
 
             $_SESSION['ID'] = $page->userid; // store session data
             $_SESSION['userlist'] = $page->userlist;
-            $_SESSION['name'] = $user;
+            $_SESSION['name'] = $page->username;
             startup($page);
 
         }
@@ -46,7 +46,7 @@ try{
 function startup($page){
 
 
-    $page->assign('user', $page->user);//stores the name to be displayed
+    $page->assign('user', $page->username);//stores the name to be displayed
 
     $result = $page->con->prepare('SELECT * FROM Main
 		WHERE toID = ?');

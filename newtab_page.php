@@ -1,14 +1,14 @@
 <?php
 
-session_start();
-define('ROOT_PATH',$_SESSION['ROOT_PATH']);
+    session_start();
+    define('ROOT_PATH', str_replace('\\', '/', dirname(__FILE__)) );
+    include(ROOT_PATH.'/pages/default_page.php');
 
-include(ROOT_PATH.'/default_page.php');
 
-if (!isset($_SESSION)){
-    $page = new Default_page();
-    $page->display_temp('signin.tpl');
-}
+    if (!isset($_SESSION)){
+        $page = new Default_page();
+        $page->display_temp('signin.tpl');
+    }
 /*
  * page used to add amounts that the person either owes
  * or is owed too

@@ -2,7 +2,7 @@
 
 
 
-include(ROOT_PATH.'/wrapper.php');
+include(ROOT_PATH.'/pages/wrapper.php');
 /**
  * Class Default page
  */
