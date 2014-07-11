@@ -9,6 +9,7 @@ include(ROOT_PATH.'/pages/wrapper.php');
 
 class Default_page extends SmartyWrapper{
 
+    public $password;
 	public $username;
 	public $userlist;
 	public $userid;
@@ -80,13 +81,16 @@ class Default_page extends SmartyWrapper{
 		$result->execute(array($this->username));
 		$rows = $result->fetchAll(PDO::FETCH_ASSOC);
 
+
 		foreach($rows as $row) {
-			if (!($row['Password'] == $pass)){
+			if (!(password_verify($pass, $row['Password']))){
 				$correctness ++;
 				//check for password again.
 			}
 			$this->userid = $row['ID'];
+            $this->password = $row['Password'];
 			$counter ++;
+
 		}
 
 		// there were no users

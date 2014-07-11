@@ -37,3 +37,16 @@
 [09-Jul-2014 12:03:41 America/New_York] PHP Fatal error:  Class 'Default_page' not found in /home/jason/dev/TabManager/newtab_page.php on line 17
 [09-Jul-2014 12:03:41 America/New_York] PHP Stack trace:
 [09-Jul-2014 12:03:41 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[11-Jul-2014 17:40:53 America/New_York] PHP Warning:  password_verify() expects exactly 2 parameters, 3 given in /home/jason/dev/TabManager/create_user.php on line 5
+[11-Jul-2014 17:40:53 America/New_York] PHP Stack trace:
+[11-Jul-2014 17:40:53 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/create_user.php:0
+[11-Jul-2014 17:40:53 America/New_York] PHP   2. password_verify() /home/jason/dev/TabManager/create_user.php:5
+[11-Jul-2014 17:52:36 America/New_York] PHP Notice:  Undefined variable: U in /home/jason/dev/TabManager/create_user.php on line 11
+[11-Jul-2014 17:52:36 America/New_York] PHP Stack trace:
+[11-Jul-2014 17:52:36 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/create_user.php:0
+[11-Jul-2014 18:36:37 America/New_York] PHP Fatal error:  Uncaught exception 'SmartyException' with message 'Call of unknown method 'assign_username'.' in /usr/share/php/smarty3/sysplugins/smarty_internal_templatebase.php:806
+Stack trace:
+#0 /home/jason/dev/TabManager/newtab_page.php(96): Smarty_Internal_TemplateBase->__call('assign_username', Array)
+#1 /home/jason/dev/TabManager/newtab_page.php(96): newtab_page->assign_username(''Jack'')
+#2 {main}
+  thrown in /usr/share/php/smarty3/sysplugins/smarty_internal_templatebase.php on line 806

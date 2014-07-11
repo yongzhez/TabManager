@@ -93,7 +93,9 @@ try{
     if(isset($_SESSION['ID']) && isset($_SESSION['userlist'])){
 		$page->assign_userid($_SESSION['ID']);
 		$page->assign_userlist($_SESSION['userlist']);
+		$page->assign_user($_SESSION['name']);
 	}
+	
 
 	if (isset($_POST['submit'])){
 

@@ -15,11 +15,13 @@ try{
     if (isset($_POST['user']) && isset($_POST['pass'])){
 
 
-        $user =  $_POST['user'];
-        $pass =  $_POST['pass'];
+        $user =  $page->con->quote($_POST['user']);
+        $pass =  $page->con->quote($_POST['pass']);
+
 
 
         $page->assign_user($user);
+
         $page->create_userlist($page->con);
         if ($page->validation($pass, $page->con) == 1){
             $page->display_temp('signin.tpl');
@@ -28,6 +30,7 @@ try{
             $_SESSION['ID'] = $page->userid; // store session data
             $_SESSION['userlist'] = $page->userlist;
             $_SESSION['name'] = $page->username;
+            
             startup($page);
 
         }
@@ -36,6 +39,7 @@ try{
         $page->assign_user($_SESSION['name']);
         $page->assign_userlist( $_SESSION['userlist']);
         $page->assign_userid($_SESSION['ID']);
+
         startup( $page);
     }
 
