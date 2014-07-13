@@ -71,7 +71,7 @@ class Default_page extends SmartyWrapper{
 	 * Validates that this is the correct user. Returns a boolean
 	 * in the form of 0 or 1.
 	 */
-	function  validation($pass, $con){
+	function  pass_valid($pass, $con){
 
 		$counter = 0;
 		$correctness = 0;

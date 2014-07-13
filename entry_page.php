@@ -4,7 +4,7 @@
     include(ROOT_PATH.'/pages/default_page.php');
 
 
-    if (!isset($_SESSION)){
+    if (!isset($_SESSION['name']) && !isset($_SESSION['userlist']) && !isset($_SESSION['ID'])){
         $page = new Default_page();
         $page->display_temp('signin.tpl');
     }
@@ -15,15 +15,15 @@ try{
     if (isset($_POST['user']) && isset($_POST['pass'])){
 
 
-        $user =  $page->con->quote($_POST['user']);
-        $pass =  $page->con->quote($_POST['pass']);
+        $user =  $_POST['user'];
+        $pass =  $_POST['pass'];
 
 
 
         $page->assign_user($user);
 
         $page->create_userlist($page->con);
-        if ($page->validation($pass, $page->con) == 1){
+        if ($page->pass_valid($pass, $page->con) == 1){
             $page->display_temp('signin.tpl');
         } else{
 
