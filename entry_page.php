@@ -4,10 +4,7 @@
     include(ROOT_PATH.'/pages/default_page.php');
 
 
-    if (!isset($_SESSION['name']) && !isset($_SESSION['userlist']) && !isset($_SESSION['ID'])){
-        $page = new Default_page();
-        $page->display_temp('signin.tpl');
-    }
+
 try{
 
     $page = new Default_page();
@@ -35,7 +32,10 @@ try{
 
         }
     } else{
-
+        if (!isset($_SESSION['name']) && !isset($_SESSION['userlist']) && !isset($_SESSION['ID'])){
+            $page = new Default_page();
+            $page->display_temp('signin.tpl');
+        }
         $page->assign_user($_SESSION['name']);
         $page->assign_userlist( $_SESSION['userlist']);
         $page->assign_userid($_SESSION['ID']);

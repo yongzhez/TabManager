@@ -34,11 +34,13 @@ class newtab_page extends Default_page{
 		if (!isset($_POST['toID'] )){			// not typing a username
 			$this->assign('booluser', 1);
 			$this->display('newtab.tpl');
+            echo 'hi';
 			exit;
 		}
-        if(!in_array(['toId'], $this->userlist)){  //typing in a username that doesn't exist
+        if(!in_array($_POST['toID'], $this->userlist)){  //typing in a username that doesn't exist
             $this->assign('booluser', 1);
             $this->display('newtab.tpl');
+
             exit;
         }
         if ($_POST['toID'] == $this->userid){		// for using same ID as the current user.
@@ -63,7 +65,7 @@ class newtab_page extends Default_page{
 			$amount = -1 * abs($_POST['amount']);
 		}
 
-		$result = $this->$con->prepare("SELECT * FROM Main
+		$result = $this->con->prepare("SELECT * FROM Main
 			WHERE fromID = ? AND toID = ?");
 		$result->execute(array($this->userid, $this->toID));
 		$row_count = $result->rowCount();
@@ -116,10 +118,9 @@ try{
 		date_default_timezone_set($timezone);
 		$date = date('m/d/Y h:i:s a', time());
 
-        print_r(array(':toID' => $page->toID, ':amount' => $amount, ':date' => $date, ':userID' => $page->userid,
-            ':description' => $_POST['desc'], ':balance' => $balance));
+        
 
-		$insert = $this->con->prepare( "INSERT INTO Main (toID, amount, date, fromID, description, balance)
+		$insert = $page->con->prepare( "INSERT INTO Main (toID, amount, date, fromID, description, balance)
 			VALUES (:toID, :amount, :date, :userID, :description, :balance)");
 		$insert->execute(array(':toID' => $page->toID, ':amount' => $amount, ':date' => $date, ':userID' => $page->userid,
 			':description' => $_POST['desc'], ':balance' => $balance));
