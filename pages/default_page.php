@@ -71,14 +71,14 @@ class Default_page extends SmartyWrapper{
 	 * Validates that this is the correct user. Returns a boolean
 	 * in the form of 0 or 1.
 	 */
-	function  pass_valid($pass, $con){
+	function  pass_valid($pass, $user){
 
 		$counter = 0;
 		$correctness = 0;
 
-		$result= $con->prepare('SELECT * FROM  users
+		$result= $this->con->prepare('SELECT * FROM  users
 			WHERE Username= ?');
-		$result->execute(array($this->username));
+		$result->execute(array($user));
 		$rows = $result->fetchAll(PDO::FETCH_ASSOC);
 
 

@@ -63,6 +63,7 @@ class newtab_page extends Default_page{
         }
 
 	}
+
 	function balance(){
 
 
@@ -115,7 +116,6 @@ try{
         $page->assign_userid($_SESSION['ID']);
         $page->assign_userlist($_SESSION['userlist']);
         $page->assign_user($_SESSION['name']);
-
 
         $page->semantic_check();
 

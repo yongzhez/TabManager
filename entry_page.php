@@ -15,15 +15,11 @@ try{
         $user =  $_POST['user'];
         $pass =  $_POST['pass'];
 
-
-
-        $page->assign_user($user);
-
         $page->create_userlist($page->con);
-        if ($page->pass_valid($pass, $page->con) == 1){
+        if ($page->pass_valid($pass, $user) == 1){
             $page->display_temp('signin.tpl');
         } else{
-
+            $page->assign_user($user);
             $_SESSION['ID'] = $page->userid; // store session data
             $_SESSION['userlist'] = $page->userlist;
             $_SESSION['name'] = $page->username;
