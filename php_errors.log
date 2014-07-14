@@ -67,3 +67,85 @@ Stack trace:
 [13-Jul-2014 19:18:51 America/New_York] PHP Fatal error:  Using $this when not in object context in /home/jason/dev/TabManager/newtab_page.php on line 124
 [13-Jul-2014 19:18:51 America/New_York] PHP Stack trace:
 [13-Jul-2014 19:18:51 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[13-Jul-2014 19:36:19 America/New_York] PHP Notice:  Undefined index: booluser in /home/jason/dev/TabManager/pages/templates_c/en^56766943ccebf214245629ba0c38c1c747f2d3d5.file.newtab.tpl.php on line 61
+[13-Jul-2014 19:36:19 America/New_York] PHP Stack trace:
+[13-Jul-2014 19:36:19 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[13-Jul-2014 19:36:19 America/New_York] PHP   2. newtab_page->semantic_check() /home/jason/dev/TabManager/newtab_page.php:118
+[13-Jul-2014 19:36:19 America/New_York] PHP   3. SmartyWrapper->display_temp() /home/jason/dev/TabManager/newtab_page.php:59
+[13-Jul-2014 19:36:19 America/New_York] PHP   4. Smarty_Internal_TemplateBase->display() /home/jason/dev/TabManager/pages/wrapper.php:30
+[13-Jul-2014 19:36:19 America/New_York] PHP   5. Smarty_Internal_TemplateBase->fetch() /usr/share/php/smarty3/sysplugins/smarty_internal_templatebase.php:374
+[13-Jul-2014 19:36:19 America/New_York] PHP   6. content_53bacdc9f10e60_62644336() /usr/share/php/smarty3/sysplugins/smarty_internal_templatebase.php:180
+[13-Jul-2014 19:36:19 America/New_York] PHP Notice:  Trying to get property of non-object in /home/jason/dev/TabManager/pages/templates_c/en^56766943ccebf214245629ba0c38c1c747f2d3d5.file.newtab.tpl.php on line 61
+[13-Jul-2014 19:36:19 America/New_York] PHP Stack trace:
+[13-Jul-2014 19:36:19 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[13-Jul-2014 19:36:19 America/New_York] PHP   2. newtab_page->semantic_check() /home/jason/dev/TabManager/newtab_page.php:118
+[13-Jul-2014 19:36:19 America/New_York] PHP   3. SmartyWrapper->display_temp() /home/jason/dev/TabManager/newtab_page.php:59
+[13-Jul-2014 19:36:19 America/New_York] PHP   4. Smarty_Internal_TemplateBase->display() /home/jason/dev/TabManager/pages/wrapper.php:30
+[13-Jul-2014 19:36:19 America/New_York] PHP   5. Smarty_Internal_TemplateBase->fetch() /usr/share/php/smarty3/sysplugins/smarty_internal_templatebase.php:374
+[13-Jul-2014 19:36:19 America/New_York] PHP   6. content_53bacdc9f10e60_62644336() /usr/share/php/smarty3/sysplugins/smarty_internal_templatebase.php:180
+[13-Jul-2014 19:36:19 America/New_York] PHP Notice:  Undefined index: booltab in /home/jason/dev/TabManager/pages/templates_c/en^56766943ccebf214245629ba0c38c1c747f2d3d5.file.newtab.tpl.php on line 63
+[13-Jul-2014 19:36:19 America/New_York] PHP Stack trace:
+[13-Jul-2014 19:36:19 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[13-Jul-2014 19:36:19 America/New_York] PHP   2. newtab_page->semantic_check() /home/jason/dev/TabManager/newtab_page.php:118
+[13-Jul-2014 19:36:19 America/New_York] PHP   3. SmartyWrapper->display_temp() /home/jason/dev/TabManager/newtab_page.php:59
+[13-Jul-2014 19:36:19 America/New_York] PHP   4. Smarty_Internal_TemplateBase->display() /home/jason/dev/TabManager/pages/wrapper.php:30
+[13-Jul-2014 19:36:19 America/New_York] PHP   5. Smarty_Internal_TemplateBase->fetch() /usr/share/php/smarty3/sysplugins/smarty_internal_templatebase.php:374
+[13-Jul-2014 19:36:19 America/New_York] PHP   6. content_53bacdc9f10e60_62644336() /usr/share/php/smarty3/sysplugins/smarty_internal_templatebase.php:180
+[13-Jul-2014 19:36:19 America/New_York] PHP Notice:  Trying to get property of non-object in /home/jason/dev/TabManager/pages/templates_c/en^56766943ccebf214245629ba0c38c1c747f2d3d5.file.newtab.tpl.php on line 63
+[13-Jul-2014 19:36:19 America/New_York] PHP Stack trace:
+[13-Jul-2014 19:36:19 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[13-Jul-2014 19:36:19 America/New_York] PHP   2. newtab_page->semantic_check() /home/jason/dev/TabManager/newtab_page.php:118
+[13-Jul-2014 19:36:19 America/New_York] PHP   3. SmartyWrapper->display_temp() /home/jason/dev/TabManager/newtab_page.php:59
+[13-Jul-2014 19:36:19 America/New_York] PHP   4. Smarty_Internal_TemplateBase->display() /home/jason/dev/TabManager/pages/wrapper.php:30
+[13-Jul-2014 19:36:19 America/New_York] PHP   5. Smarty_Internal_TemplateBase->fetch() /usr/share/php/smarty3/sysplugins/smarty_internal_templatebase.php:374
+[13-Jul-2014 19:36:19 America/New_York] PHP   6. content_53bacdc9f10e60_62644336() /usr/share/php/smarty3/sysplugins/smarty_internal_templatebase.php:180
+[13-Jul-2014 19:38:25 America/New_York] PHP Notice:  Undefined index: booltab in /home/jason/dev/TabManager/pages/templates_c/en^56766943ccebf214245629ba0c38c1c747f2d3d5.file.newtab.tpl.php on line 63
+[13-Jul-2014 19:38:25 America/New_York] PHP Stack trace:
+[13-Jul-2014 19:38:25 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[13-Jul-2014 19:38:25 America/New_York] PHP   2. newtab_page->semantic_check() /home/jason/dev/TabManager/newtab_page.php:119
+[13-Jul-2014 19:38:25 America/New_York] PHP   3. SmartyWrapper->display_temp() /home/jason/dev/TabManager/newtab_page.php:60
+[13-Jul-2014 19:38:25 America/New_York] PHP   4. Smarty_Internal_TemplateBase->display() /home/jason/dev/TabManager/pages/wrapper.php:30
+[13-Jul-2014 19:38:25 America/New_York] PHP   5. Smarty_Internal_TemplateBase->fetch() /usr/share/php/smarty3/sysplugins/smarty_internal_templatebase.php:374
+[13-Jul-2014 19:38:25 America/New_York] PHP   6. content_53bacdc9f10e60_62644336() /usr/share/php/smarty3/sysplugins/smarty_internal_templatebase.php:180
+[13-Jul-2014 19:38:25 America/New_York] PHP Notice:  Trying to get property of non-object in /home/jason/dev/TabManager/pages/templates_c/en^56766943ccebf214245629ba0c38c1c747f2d3d5.file.newtab.tpl.php on line 63
+[13-Jul-2014 19:38:25 America/New_York] PHP Stack trace:
+[13-Jul-2014 19:38:25 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[13-Jul-2014 19:38:25 America/New_York] PHP   2. newtab_page->semantic_check() /home/jason/dev/TabManager/newtab_page.php:119
+[13-Jul-2014 19:38:25 America/New_York] PHP   3. SmartyWrapper->display_temp() /home/jason/dev/TabManager/newtab_page.php:60
+[13-Jul-2014 19:38:25 America/New_York] PHP   4. Smarty_Internal_TemplateBase->display() /home/jason/dev/TabManager/pages/wrapper.php:30
+[13-Jul-2014 19:38:25 America/New_York] PHP   5. Smarty_Internal_TemplateBase->fetch() /usr/share/php/smarty3/sysplugins/smarty_internal_templatebase.php:374
+[13-Jul-2014 19:38:25 America/New_York] PHP   6. content_53bacdc9f10e60_62644336() /usr/share/php/smarty3/sysplugins/smarty_internal_templatebase.php:180
+[13-Jul-2014 19:40:02 America/New_York] PHP Notice:  Undefined index: booltab in /home/jason/dev/TabManager/pages/templates_c/en^56766943ccebf214245629ba0c38c1c747f2d3d5.file.newtab.tpl.php on line 63
+[13-Jul-2014 19:40:02 America/New_York] PHP Stack trace:
+[13-Jul-2014 19:40:02 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[13-Jul-2014 19:40:02 America/New_York] PHP   2. newtab_page->semantic_check() /home/jason/dev/TabManager/newtab_page.php:119
+[13-Jul-2014 19:40:02 America/New_York] PHP   3. SmartyWrapper->display_temp() /home/jason/dev/TabManager/newtab_page.php:60
+[13-Jul-2014 19:40:02 America/New_York] PHP   4. Smarty_Internal_TemplateBase->display() /home/jason/dev/TabManager/pages/wrapper.php:30
+[13-Jul-2014 19:40:02 America/New_York] PHP   5. Smarty_Internal_TemplateBase->fetch() /usr/share/php/smarty3/sysplugins/smarty_internal_templatebase.php:374
+[13-Jul-2014 19:40:02 America/New_York] PHP   6. content_53bacdc9f10e60_62644336() /usr/share/php/smarty3/sysplugins/smarty_internal_templatebase.php:180
+[13-Jul-2014 19:40:02 America/New_York] PHP Notice:  Trying to get property of non-object in /home/jason/dev/TabManager/pages/templates_c/en^56766943ccebf214245629ba0c38c1c747f2d3d5.file.newtab.tpl.php on line 63
+[13-Jul-2014 19:40:02 America/New_York] PHP Stack trace:
+[13-Jul-2014 19:40:02 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[13-Jul-2014 19:40:02 America/New_York] PHP   2. newtab_page->semantic_check() /home/jason/dev/TabManager/newtab_page.php:119
+[13-Jul-2014 19:40:02 America/New_York] PHP   3. SmartyWrapper->display_temp() /home/jason/dev/TabManager/newtab_page.php:60
+[13-Jul-2014 19:40:02 America/New_York] PHP   4. Smarty_Internal_TemplateBase->display() /home/jason/dev/TabManager/pages/wrapper.php:30
+[13-Jul-2014 19:40:02 America/New_York] PHP   5. Smarty_Internal_TemplateBase->fetch() /usr/share/php/smarty3/sysplugins/smarty_internal_templatebase.php:374
+[13-Jul-2014 19:40:02 America/New_York] PHP   6. content_53bacdc9f10e60_62644336() /usr/share/php/smarty3/sysplugins/smarty_internal_templatebase.php:180
+[13-Jul-2014 19:43:06 America/New_York] PHP Notice:  Undefined index: boolamount in /home/jason/dev/TabManager/pages/templates_c/en^56766943ccebf214245629ba0c38c1c747f2d3d5.file.newtab.tpl.php on line 65
+[13-Jul-2014 19:43:06 America/New_York] PHP Stack trace:
+[13-Jul-2014 19:43:06 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[13-Jul-2014 19:43:06 America/New_York] PHP   2. SmartyWrapper->display_temp() /home/jason/dev/TabManager/newtab_page.php:155
+[13-Jul-2014 19:43:06 America/New_York] PHP   3. Smarty_Internal_TemplateBase->display() /home/jason/dev/TabManager/pages/wrapper.php:30
+[13-Jul-2014 19:43:06 America/New_York] PHP   4. Smarty_Internal_TemplateBase->fetch() /usr/share/php/smarty3/sysplugins/smarty_internal_templatebase.php:374
+[13-Jul-2014 19:43:06 America/New_York] PHP   5. content_53bacdc9f10e60_62644336() /usr/share/php/smarty3/sysplugins/smarty_internal_templatebase.php:180
+[13-Jul-2014 19:43:06 America/New_York] PHP Notice:  Trying to get property of non-object in /home/jason/dev/TabManager/pages/templates_c/en^56766943ccebf214245629ba0c38c1c747f2d3d5.file.newtab.tpl.php on line 65
+[13-Jul-2014 19:43:06 America/New_York] PHP Stack trace:
+[13-Jul-2014 19:43:06 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[13-Jul-2014 19:43:06 America/New_York] PHP   2. SmartyWrapper->display_temp() /home/jason/dev/TabManager/newtab_page.php:155
+[13-Jul-2014 19:43:06 America/New_York] PHP   3. Smarty_Internal_TemplateBase->display() /home/jason/dev/TabManager/pages/wrapper.php:30
+[13-Jul-2014 19:43:06 America/New_York] PHP   4. Smarty_Internal_TemplateBase->fetch() /usr/share/php/smarty3/sysplugins/smarty_internal_templatebase.php:374
+[13-Jul-2014 19:43:06 America/New_York] PHP   5. content_53bacdc9f10e60_62644336() /usr/share/php/smarty3/sysplugins/smarty_internal_templatebase.php:180
+[13-Jul-2014 19:50:27 America/New_York] PHP Warning:  print_r() expects at most 2 parameters, 6 given in /home/jason/dev/TabManager/newtab_page.php on line 138
+[13-Jul-2014 19:50:27 America/New_York] PHP Stack trace:
+[13-Jul-2014 19:50:27 America/New_York] PHP   1. {main}() /home/jason/dev/TabManager/newtab_page.php:0
+[13-Jul-2014 19:50:27 America/New_York] PHP   2. print_r() /home/jason/dev/TabManager/newtab_page.php:138

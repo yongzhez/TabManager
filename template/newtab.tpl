@@ -15,6 +15,8 @@
 		<br>incorrect user
 	{elseif $booltab}
 		<br>please choose a tab
+    {elseif $boolamount}
+        <br>please enter a correct float
 	{/if}
 	{include file='footer.tpl'}
 {/block}
